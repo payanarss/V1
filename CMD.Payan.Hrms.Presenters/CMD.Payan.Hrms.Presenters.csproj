@@ -8,8 +8,8 @@
     <ProjectGuid>{59B45428-EC56-46B8-B3C7-FC89267A48D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Payanar.SS.Net.Presenters</RootNamespace>
-    <AssemblyName>Payanar.SS.Net.Presenters</AssemblyName>
+    <RootNamespace>CMD.Payan.Hrms.Presenters</RootNamespace>
+    <AssemblyName>CMD.Payan.Hrms.Presenters</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>

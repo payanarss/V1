@@ -8,8 +8,8 @@
     <ProjectGuid>{7EE785B5-D379-4F80-B2C3-D917D047EDB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Payanar.SS.Net.DatabaseLayer</RootNamespace>
-    <AssemblyName>Payanar.SS.Net.MSSqlDatabase</AssemblyName>
+    <RootNamespace>CMD.Payan.Hrms.MSSqlDatabase</RootNamespace>
+    <AssemblyName>CMD.Payan.Hrms.MSSqlDatabase</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

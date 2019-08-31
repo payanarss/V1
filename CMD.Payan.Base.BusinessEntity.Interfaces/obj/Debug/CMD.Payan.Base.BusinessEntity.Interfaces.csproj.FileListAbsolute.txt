@@ -5,6 +5,8 @@ C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug\CMD.Payan.Base.BusinessEntity.Interfaces.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.BusinessEntity.Interfaces.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.BusinessEntity.Interfaces.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug\CMD.Payan.Base.BusinessEntity.Interfaces.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug\CMD.Payan.Base.BusinessEntity.Interfaces.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug\CMD.Payan.Base.BusinessEntity.Interfaces.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug\CMD.Payan.Base.BusinessEntity.Interfaces.csprojAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug\CMD.Payan.Base.BusinessEntity.Interfaces.csproj.CoreCompileInputs.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessEntity.Interfaces\obj\Debug\CMD.Payan.Base.BusinessEntity.Interfaces.csproj.CopyComplete

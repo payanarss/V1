@@ -8,8 +8,8 @@
     <ProjectGuid>{C857F7FF-D777-40C8-94B7-E4AB1A59948E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Payanar.SS.Net.Base.Views.CustomControls</RootNamespace>
-    <AssemblyName>Payanar.SS.Net.Base.Views.CustomControls</AssemblyName>
+    <RootNamespace>CMD.Payan.Base.Views.CustomControls</RootNamespace>
+    <AssemblyName>CMD.Payan.Base.Views.CustomControls</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>

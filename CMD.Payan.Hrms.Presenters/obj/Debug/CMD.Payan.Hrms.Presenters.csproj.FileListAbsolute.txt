@@ -3,8 +3,10 @@ C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\Payanar.SS.Net.Presenters.pdb
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\CMD.Payan.Hrms.Presenters.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\Payanar.SS.Net.Presenters.dll
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\Payanar.SS.Net.Presenters.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Presenters.dll
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Presenters.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\CMD.Payan.Hrms.Presenters.csprojResolveAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\Payanar.SS.Net.Presenters.dll
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\Payanar.SS.Net.Presenters.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\CMD.Payan.Hrms.Presenters.csprojAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\CMD.Payan.Hrms.Presenters.csproj.CoreCompileInputs.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\CMD.Payan.Hrms.Presenters.csproj.CopyComplete
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.Presenters.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.Presenters.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\CMD.Payan.Hrms.Presenters.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Presenters\obj\Debug\CMD.Payan.Hrms.Presenters.pdb

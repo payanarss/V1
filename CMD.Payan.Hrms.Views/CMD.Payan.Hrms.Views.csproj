@@ -8,8 +8,8 @@
     <ProjectGuid>{C863C08B-B2F5-4173-A2E4-4B48437CA489}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Payanar.SS.Net.Views</RootNamespace>
-    <AssemblyName>Payanar.SS.Net.Views</AssemblyName>
+    <RootNamespace>CMD.Payan.Hrms.Views</RootNamespace>
+    <AssemblyName>CMD.Payan.Hrms.Views</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
@@ -76,6 +76,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\CallLetter.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Factories\MainViews\MainViewFactory.cs" />
     <Compile Include="Factories\MainViews\ModelsViewFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -216,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\CallLetter\CallLetterCollectionView.resx">
       <DependentUpon>CallLetterCollectionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CallLetter\CallLetterView.resx">
+      <DependentUpon>CallLetterView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\MainViews\MainDataViews.resx">
       <DependentUpon>MainDataViews.cs</DependentUpon>

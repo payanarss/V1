@@ -8,8 +8,8 @@
     <ProjectGuid>{6559F44B-A26A-4469-8EA3-1A659612B698}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Payanar.SS.Net.BusinessLayers</RootNamespace>
-    <AssemblyName>Payanar.SS.Net.BusinessLayers</AssemblyName>
+    <RootNamespace>CMD.Payan.Hrms.BusinessLayers</RootNamespace>
+    <AssemblyName>CMD.Payan.Hrms.BusinessLayers</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

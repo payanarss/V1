@@ -31,8 +31,9 @@ C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\De
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csproj.GenerateResource.Cache
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.exe
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\Views\CallLetter\CallLetter.g.cs
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\Views\CallLetter\CallLetterWindow.g.cs
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\Views\CallLetter\CallLetter.baml
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\Views\CallLetter\CallLetterWindow.baml
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csprojAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csproj.CoreCompileInputs.cache

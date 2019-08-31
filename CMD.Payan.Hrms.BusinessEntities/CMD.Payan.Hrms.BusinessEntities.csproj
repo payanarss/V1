@@ -8,8 +8,8 @@
     <ProjectGuid>{E59BC613-103C-4D9D-B065-315C3C94B7A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Payanar.SS.Net.BusinessEntities</RootNamespace>
-    <AssemblyName>Payanar.SS.Net.BusinessEntities</AssemblyName>
+    <RootNamespace>CMD.Payan.Hrms.BusinessEntities</RootNamespace>
+    <AssemblyName>CMD.Payan.Hrms.BusinessEntities</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>

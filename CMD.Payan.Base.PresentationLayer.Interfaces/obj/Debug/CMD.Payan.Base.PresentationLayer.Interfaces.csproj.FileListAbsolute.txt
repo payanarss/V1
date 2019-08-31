@@ -3,8 +3,10 @@ C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\Payanar.SS.Net.Base.PresentationLayer
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\CMD.Payan.Base.PresentationLayer.Interfaces.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\Payanar.SS.Net.Base.PresentationLayer.Interfaces.dll
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\Payanar.SS.Net.Base.PresentationLayer.Interfaces.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Base.PresentationLayer.Interfaces.dll
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Base.PresentationLayer.Interfaces.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\CMD.Payan.Base.PresentationLayer.Interfaces.csprojResolveAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\Payanar.SS.Net.Base.PresentationLayer.Interfaces.dll
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\Payanar.SS.Net.Base.PresentationLayer.Interfaces.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\CMD.Payan.Base.PresentationLayer.Interfaces.csprojAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\CMD.Payan.Base.PresentationLayer.Interfaces.csproj.CoreCompileInputs.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\CMD.Payan.Base.PresentationLayer.Interfaces.csproj.CopyComplete
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.PresentationLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.PresentationLayer.Interfaces.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\CMD.Payan.Base.PresentationLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.PresentationLayer.Interfaces\obj\Debug\CMD.Payan.Base.PresentationLayer.Interfaces.pdb
