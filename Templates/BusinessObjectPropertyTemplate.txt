@@ -1,0 +1,6 @@
+
+        public $PropertyType$ $PropertyName$
+        {
+            get { return $ClassName$EntityDetail.$FieldName$; }
+            set { $ClassName$EntityDetail.$FieldName$ = value; }
+        }

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6559F44B-A26A-4469-8EA3-1A659612B698}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Payanar.SS.Net.BusinessLayers</RootNamespace>
+    <AssemblyName>Payanar.SS.Net.BusinessLayers</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Dependencies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Payanar.SS.Net.Libraries.BusinessEntity.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.BusinessEntity.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.BusinessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.BusinessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.BusinessLayer.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.BusinessLayer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.DatabaseLayer.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.DatabaseLayer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayers\AccessDetails.cs" />
+    <Compile Include="Collections\AccessDetailsCollection.cs" />
+    <Compile Include="Factories\AccessDetailsFactory.cs" />
+    <Compile Include="Factories\AccessDetailsCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\CallLetter.cs" />
+    <Compile Include="Collections\CallLetterCollection.cs" />
+    <Compile Include="Factories\CallLetterFactory.cs" />
+    <Compile Include="Factories\CallLetterCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\TableSequanceNumber.cs" />
+    <Compile Include="Collections\TableSequanceNumberCollection.cs" />
+    <Compile Include="Factories\TableSequanceNumberFactory.cs" />
+    <Compile Include="Factories\TableSequanceNumberCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\InterviewGrade.cs" />
+    <Compile Include="Collections\InterviewGradeCollection.cs" />
+    <Compile Include="Factories\InterviewGradeFactory.cs" />
+    <Compile Include="Factories\InterviewGradeCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\InterviewFormHeader.cs" />
+    <Compile Include="Collections\InterviewFormHeaderCollection.cs" />
+    <Compile Include="Factories\InterviewFormHeaderFactory.cs" />
+    <Compile Include="Factories\InterviewFormHeaderCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\InterviewFormDetails.cs" />
+    <Compile Include="Collections\InterviewFormDetailsCollection.cs" />
+    <Compile Include="Factories\InterviewFormDetailsFactory.cs" />
+    <Compile Include="Factories\InterviewFormDetailsCollectionFactory.cs" />
+    <!--IncludeCSFile-->
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cache\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMD.Payan.Base.BusinessEntity.Interfaces\CMD.Payan.Base.BusinessEntity.Interfaces.csproj">
+      <Project>{25422E61-44F8-45A0-8974-28CBCED4923C}</Project>
+      <Name>CMD.Payan.Base.BusinessEntity.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.BusinessLayer.Interfaces\CMD.Payan.Base.BusinessLayer.Interfaces.csproj">
+      <Project>{4E0004C9-A6C3-42FC-8942-F2E4DF66DB67}</Project>
+      <Name>CMD.Payan.Base.BusinessLayer.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.BusinessLayer\CMD.Payan.Base.BusinessLayer.csproj">
+      <Project>{F962FB9A-4369-49C7-A999-A40502CD3F6D}</Project>
+      <Name>CMD.Payan.Base.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Common\CMD.Payan.Base.Common.csproj">
+      <Project>{d03b9950-fb41-4ae9-a39e-619aba0b16da}</Project>
+      <Name>CMD.Payan.Base.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Company\CMD.Payan.Base.Company.csproj">
+      <Project>{c248fdd5-d6a3-43b3-abea-8bfe652b83fe}</Project>
+      <Name>CMD.Payan.Base.Company</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.DatabaseLayer.Interfaces\CMD.Payan.Base.DatabaseLayer.Interfaces.csproj">
+      <Project>{7acb0f7c-bd19-4716-855c-cef249f5bc30}</Project>
+      <Name>CMD.Payan.Base.DatabaseLayer.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Hrms.BusinessEntities\CMD.Payan.Hrms.BusinessEntities.csproj">
+      <Project>{E59BC613-103C-4D9D-B065-315C3C94B7A8}</Project>
+      <Name>CMD.Payan.Hrms.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Hrms.DatabaseLayer\CMD.Payan.Hrms.DatabaseLayer.csproj">
+      <Project>{FE308D15-9E54-48FE-A6AF-5FD32C00DD70}</Project>
+      <Name>CMD.Payan.Hrms.DatabaseLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

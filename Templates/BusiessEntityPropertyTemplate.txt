@@ -1,0 +1,6 @@
+
+        $AccessModifier$ $PropertyType$ $PropertyName$
+        {
+            get { return _$PrivateFieldName$.Value; }
+            set { _$PrivateFieldName$.Value = value; }
+        }

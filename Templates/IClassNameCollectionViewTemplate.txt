@@ -1,0 +1,12 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
+
+namespace $ProjectNamespace$.$ModuleName$.Presenters
+{
+    public interface I$ClassName$CollectionView : IView
+    {
+    }
+}

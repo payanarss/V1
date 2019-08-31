@@ -1,0 +1,1 @@
+            AddParameters("$ParameterName$", GetDbType("$FieldType$"), $ClassName$EntityDetail.$FieldName$);

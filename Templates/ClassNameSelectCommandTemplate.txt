@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+using Payanar.SS.Net.Libraries.Common;
+using Payanar.SS.Net.Libraries.DatabaseLayer.Interfaces;
+using $ProjectNamespace$.$ModuleName$.BusinessEntities;
+
+namespace $ProjectNamespace$.$ModuleName$.DatabaseLayer
+{
+    public class $ClassName$SelectCommand : SelectCommand
+    {
+        public $ClassName$SelectCommand(IDatabaseAgent databaseAgent, string query)
+            : base(databaseAgent, query)
+        {
+        }
+
+        protected override void MapFromDatabase(IDataReader reader)
+        {
+            base.MapFromDatabase(reader);
+            $ClassName$EntityDetail.UniqueIdentifier = ConvertType.ToInt64(reader["UniqueIdentifier"].ToString());
+	    $MapFromDatabaseCode$
+        }
+
+        private $ClassName$Entity $ClassName$EntityDetail
+        {
+            get { return BusinessEntityDetail as $ClassName$Entity; }
+        }
+    }
+}

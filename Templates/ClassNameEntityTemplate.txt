@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.BusinessEntity.Interfaces;
+using Payanar.SS.Net.Libraries.Common;
+
+namespace $ProjectNamespace$.$ModuleName$.BusinessEntities
+{
+    public class $ClassName$Entity : BusinessEntity, IBusinessEntity
+    {
+        #region Private Variables
+
+	$FieldsDeclarationCode$
+        #endregion Private Variables
+
+        #region Constructors
+
+        public $ClassName$Entity()
+            : base()
+        {
+	    InitializeFields();
+        }
+
+        public $ClassName$Entity(IParent parent)
+            : base(parent)
+        {
+	    InitializeFields();
+        }
+
+        #endregion Constructors
+
+        #region Properties
+	$PropertiesDeclarationCode$
+        #endregion Properties
+	
+	#region Methods
+
+	private void InitializeFields()
+	{
+		$FieldsInitializationCode$		}
+
+	#endregion Methods
+    }
+}

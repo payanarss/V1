@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C857F7FF-D777-40C8-94B7-E4AB1A59948E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Payanar.SS.Net.Base.Views.CustomControls</RootNamespace>
+    <AssemblyName>Payanar.SS.Net.Base.Views.CustomControls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Dependencies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.Common\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Company, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.Company\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.Company.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.PresentationLayer.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.PresentationLayer.Interfaces\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.PresentationLayer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Views.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.Views.Controls\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.Views.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Views.CustomControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.Views.CustomControls\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.Views.CustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\View.designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HeaderDetailDataGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HeaderDetailDataGridView.Designer.cs">
+      <DependentUpon>HeaderDetailDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl.Designer.cs">
+      <DependentUpon>CustomTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CustomTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchView.Designer.cs">
+      <DependentUpon>SearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AllResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\DialogResultConverter.cs" />
+    <Compile Include="Controls\BaseView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseView.designer.cs">
+      <DependentUpon>BaseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridView.Designer.cs">
+      <DependentUpon>DataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MessageViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MessageViewControl.Designer.cs">
+      <DependentUpon>MessageViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MovableView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MovableView.designer.cs">
+      <DependentUpon>MovableView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HeaderDetailView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HeaderDetailView.designer.cs">
+      <DependentUpon>HeaderDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TreeNode.cs" />
+    <Compile Include="Windows\BorderlessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BorderlessForm.Designer.cs">
+      <DependentUpon>BorderlessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\HeaderDetailWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\HeaderDetailWindow.designer.cs">
+      <DependentUpon>HeaderDetailWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\HeaderWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\HeaderWindow.designer.cs">
+      <DependentUpon>HeaderWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchControl.designer.cs">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HeaderView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HeaderView.designer.cs">
+      <DependentUpon>HeaderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TitleView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TitleView.Designer.cs">
+      <DependentUpon>TitleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TreeViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TreeViewControl.designer.cs">
+      <DependentUpon>TreeViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\UserMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SearchWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\SearchWindow.Designer.cs">
+      <DependentUpon>SearchWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SplashScreenWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\SplashScreenWindow.Designer.cs">
+      <DependentUpon>SplashScreenWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ViewForm.Designer.cs">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HeaderDetailDataGridView.resx">
+      <DependentUpon>HeaderDetailDataGridView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CustomTabControl.resx">
+      <DependentUpon>CustomTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SearchView.resx">
+      <DependentUpon>SearchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AllResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AllResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseView.resx">
+      <DependentUpon>BaseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridView.resx">
+      <DependentUpon>DataGridView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MessageViewControl.resx">
+      <DependentUpon>MessageViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MovableView.resx">
+      <DependentUpon>MovableView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HeaderDetailView.resx">
+      <DependentUpon>HeaderDetailView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BorderlessForm.resx">
+      <DependentUpon>BorderlessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\HeaderDetailWindow.resx">
+      <DependentUpon>HeaderDetailWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\HeaderWindow.resx">
+      <DependentUpon>HeaderWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SearchControl.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HeaderView.resx">
+      <DependentUpon>HeaderView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TitleView.resx">
+      <DependentUpon>TitleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TreeViewControl.resx">
+      <DependentUpon>TreeViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SearchWindow.resx">
+      <DependentUpon>SearchWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SplashScreenWindow.resx">
+      <DependentUpon>SplashScreenWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ViewForm.resx">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\OPENFOLD.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\CLSDFOLD.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\MTBDOCS.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Payanar2.ico" />
+    <Content Include="Icons\FOne2.ico" />
+    <Content Include="Icons\FOne1.ico" />
+    <Content Include="Icons\Payanar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMD.Payan.Base.Common\CMD.Payan.Base.Common.csproj">
+      <Project>{D03B9950-FB41-4AE9-A39E-619ABA0B16DA}</Project>
+      <Name>CMD.Payan.Base.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Company\CMD.Payan.Base.Company.csproj">
+      <Project>{C248FDD5-D6A3-43B3-ABEA-8BFE652B83FE}</Project>
+      <Name>CMD.Payan.Base.Company</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.PresentationLayer.Interfaces\CMD.Payan.Base.PresentationLayer.Interfaces.csproj">
+      <Project>{CE193552-0BA3-469E-AFAC-1B9E7015BEA1}</Project>
+      <Name>CMD.Payan.Base.PresentationLayer.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Views.Controls\CMD.Payan.Base.Views.Controls.csproj">
+      <Project>{2A7DC700-F4B9-42CE-BB7A-8B7D6FD5C619}</Project>
+      <Name>CMD.Payan.Base.Views.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

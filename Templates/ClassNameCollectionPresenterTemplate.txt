@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
+using Payanar.SS.Net.Libraries.BusinessLayer.Interfaces;
+
+namespace $ProjectNamespace$.$ModuleName$.Presenters
+{
+    public class $ClassName$CollectionPresenter : Presenter
+    {
+        #region Constructors
+
+        public $ClassName$CollectionPresenter(IView view)
+            : base(view, $ClassName$PresentationEntityCollectionFactory.Factory)
+        {
+        }
+
+        #endregion Constructors
+
+        #region Properties
+
+        public I$ClassName$View $ClassName$ViewDetail
+        {
+            get { return ViewDetail as I$ClassName$View; }
+        }
+
+        public $ClassName$PresentationEntityCollection $ClassName$PresentationEntityCollectionDetail
+        {
+            get { return PresentationEntityCollectionDetail as $ClassName$PresentationEntityCollection; }
+        }
+
+        #endregion Properties
+
+        #region Methods
+
+
+        #endregion Methods
+    }
+}

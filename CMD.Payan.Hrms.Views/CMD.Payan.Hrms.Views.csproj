@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C863C08B-B2F5-4173-A2E4-4B48437CA489}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Payanar.SS.Net.Views</RootNamespace>
+    <AssemblyName>Payanar.SS.Net.Views</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Dependencies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Payanar.SS.Net.Libraries.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Company">
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.Company.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.PresentationLayer.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.PresentationLayer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Views.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.Views.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Views.CustomControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.Views.CustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Factories\MainViews\MainViewFactory.cs" />
+    <Compile Include="Factories\MainViews\ModelsViewFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\MainDataViews.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MainViews\MainDataViews.Designer.cs">
+      <DependentUpon>MainDataViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\MainView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MainViews\MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\MainViewTabed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MainViews\MainViewTabed.Designer.cs">
+      <DependentUpon>MainViewTabed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\MenuExplorerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MainViews\MenuExplorerView.Designer.cs">
+      <DependentUpon>MenuExplorerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\ModelsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MainViews\ModelsView.Designer.cs">
+      <DependentUpon>ModelsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AccessDetails\AccessDetailsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AccessDetails\AccessDetailsView.Designer.cs">
+      <DependentUpon>AccessDetailsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AccessDetails\AccessDetailsCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AccessDetails\AccessDetailsCollectionView.Designer.cs">
+      <DependentUpon>AccessDetailsCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\AccessDetails\AccessDetailsViewFactory.cs" />
+    <Compile Include="Factories\AccessDetails\AccessDetailsCollectionViewFactory.cs" />
+    <Compile Include="Windows\CmdPayanMainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\CmdPayanMainView.Designer.cs">
+      <DependentUpon>CmdPayanMainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CallLetter\CallLetterView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CallLetter\CallLetterView.Designer.cs">
+      <DependentUpon>CallLetterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CallLetter\CallLetterCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CallLetter\CallLetterCollectionView.Designer.cs">
+      <DependentUpon>CallLetterCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\CallLetter\CallLetterViewFactory.cs" />
+    <Compile Include="Factories\CallLetter\CallLetterCollectionViewFactory.cs" />
+    <Compile Include="Views\TableSequanceNumber\TableSequanceNumberView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TableSequanceNumber\TableSequanceNumberView.Designer.cs">
+      <DependentUpon>TableSequanceNumberView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableSequanceNumber\TableSequanceNumberCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TableSequanceNumber\TableSequanceNumberCollectionView.Designer.cs">
+      <DependentUpon>TableSequanceNumberCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\TableSequanceNumber\TableSequanceNumberViewFactory.cs" />
+    <Compile Include="Factories\TableSequanceNumber\TableSequanceNumberCollectionViewFactory.cs" />
+    <Compile Include="Views\InterviewGrade\InterviewGradeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InterviewGrade\InterviewGradeView.Designer.cs">
+      <DependentUpon>InterviewGradeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InterviewGrade\InterviewGradeCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InterviewGrade\InterviewGradeCollectionView.Designer.cs">
+      <DependentUpon>InterviewGradeCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\InterviewGrade\InterviewGradeViewFactory.cs" />
+    <Compile Include="Factories\InterviewGrade\InterviewGradeCollectionViewFactory.cs" />
+    <Compile Include="Views\InterviewFormHeader\InterviewFormHeaderView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InterviewFormHeader\InterviewFormHeaderView.Designer.cs">
+      <DependentUpon>InterviewFormHeaderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InterviewFormHeader\InterviewFormHeaderCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InterviewFormHeader\InterviewFormHeaderCollectionView.Designer.cs">
+      <DependentUpon>InterviewFormHeaderCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\InterviewFormHeader\InterviewFormHeaderViewFactory.cs" />
+    <Compile Include="Factories\InterviewFormHeader\InterviewFormHeaderCollectionViewFactory.cs" />
+    <Compile Include="Views\InterviewFormDetails\InterviewFormDetailsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InterviewFormDetails\InterviewFormDetailsView.Designer.cs">
+      <DependentUpon>InterviewFormDetailsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InterviewFormDetails\InterviewFormDetailsCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InterviewFormDetails\InterviewFormDetailsCollectionView.Designer.cs">
+      <DependentUpon>InterviewFormDetailsCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\InterviewFormDetails\InterviewFormDetailsViewFactory.cs" />
+    <Compile Include="Factories\InterviewFormDetails\InterviewFormDetailsCollectionViewFactory.cs" />
+    <!--IncludeCSFile-->
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AccessDetails\AccessDetailsCollectionView.resx">
+      <DependentUpon>AccessDetailsCollectionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CallLetter\CallLetterCollectionView.resx">
+      <DependentUpon>CallLetterCollectionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainViews\MainDataViews.resx">
+      <DependentUpon>MainDataViews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainViews\MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainViews\MainViewTabed.resx">
+      <DependentUpon>MainViewTabed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainViews\MenuExplorerView.resx">
+      <DependentUpon>MenuExplorerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainViews\ModelsView.resx">
+      <DependentUpon>ModelsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CmdPayanMainView.resx">
+      <DependentUpon>CmdPayanMainView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\CMD.Payan.Hrms.Presenters.AccessDetailsPresentationEntity.datasource" />
+    <None Include="Properties\DataSources\CMD.Payan.Hrms.Presenters.CallLetterPresentationEntity.datasource" />
+    <None Include="Properties\DataSources\Payanar.SS.Presenters.CODE_BANKPresentationEntity.datasource" />
+    <None Include="Resources\SplashScreen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Payanar.ico" />
+    <None Include="Images\DeepSkyBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMD.Payan.Base.Common\CMD.Payan.Base.Common.csproj">
+      <Project>{D03B9950-FB41-4AE9-A39E-619ABA0B16DA}</Project>
+      <Name>CMD.Payan.Base.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Company\CMD.Payan.Base.Company.csproj">
+      <Project>{C248FDD5-D6A3-43B3-ABEA-8BFE652B83FE}</Project>
+      <Name>CMD.Payan.Base.Company</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.PresentationLayer.Interfaces\CMD.Payan.Base.PresentationLayer.Interfaces.csproj">
+      <Project>{CE193552-0BA3-469E-AFAC-1B9E7015BEA1}</Project>
+      <Name>CMD.Payan.Base.PresentationLayer.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Views.Controls\CMD.Payan.Base.Views.Controls.csproj">
+      <Project>{2A7DC700-F4B9-42CE-BB7A-8B7D6FD5C619}</Project>
+      <Name>CMD.Payan.Base.Views.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Views.CustomControls\CMD.Payan.Base.Views.CustomControls.csproj">
+      <Project>{C857F7FF-D777-40C8-94B7-E4AB1A59948E}</Project>
+      <Name>CMD.Payan.Base.Views.CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Hrms.BusinessLayers\CMD.Payan.Hrms.BusinessLayers.csproj">
+      <Project>{6559F44B-A26A-4469-8EA3-1A659612B698}</Project>
+      <Name>CMD.Payan.Hrms.BusinessLayers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Hrms.Presenters\CMD.Payan.Hrms.Presenters.csproj">
+      <Project>{59B45428-EC56-46B8-B3C7-FC89267A48D0}</Project>
+      <Name>CMD.Payan.Hrms.Presenters</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

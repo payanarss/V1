@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.BusinessEntity.Interfaces;
+using Payanar.SS.Net.Libraries.Common;
+
+namespace $ProjectNamespace$.$ModuleName$.BusinessEntities
+{
+    public class $ClassName$EntityFactory : BusinessEntityFactory
+    {
+	#region Private Variables
+
+        private static $ClassName$EntityFactory _factory = null;
+
+	#endregion Private Variables
+
+	#region Methods
+
+        public static $ClassName$EntityFactory Factory
+        {
+            get
+            {
+                if (_factory == null)
+                {
+                    _factory = new $ClassName$EntityFactory();
+                }
+
+                return _factory;
+            }
+        }
+
+        protected override Payanar.SS.Net.Libraries.BusinessEntity.Interfaces.IBusinessEntity Create()
+        {
+            return new $ClassName$Entity();
+        }
+        
+        protected override Payanar.SS.Net.Libraries.BusinessEntity.Interfaces.IBusinessEntity Create(IParent parent)
+        {
+            return new $ClassName$Entity(parent);
+        }
+
+	#endregion Methods
+    }
+}

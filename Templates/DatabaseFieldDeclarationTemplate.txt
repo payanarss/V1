@@ -1,0 +1,1 @@
+	[$DatabaseFieldName$] [$DatabaseFieldType$] $Null_Or_Not$,

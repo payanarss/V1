@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace $ProjectNamespace$.$ModuleName$.DatabaseLayer
+{
+    public class $ClassName$Query
+    {
+        public static string InsertQuery
+        {
+            get { return @"$InsertQueryCode$"; }
+        }
+
+        public static string UpdateQuery
+        {
+            get { return @"$UpdatQueryCode$"; }
+        }
+
+        public static string DeleteQuery
+        {
+            get { return @"$DeleteQueryCode$"; }
+        }
+
+        public static string SelectQuery
+        {
+            get { return @"$SelectQueryCode$"; }
+        }
+
+        public static string SelectAllQuery
+        {
+            get { return @"$SelectAllQueryCode$"; }
+        }
+    }
+}

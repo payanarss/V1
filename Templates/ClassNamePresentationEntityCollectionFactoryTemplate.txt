@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.BusinessLayer;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
+using Payanar.SS.Net.Libraries.BusinessLayer.Interfaces;
+using Payanar.SS.Net.Libraries.Common;
+using $ProjectNamespace$.$ModuleName$.BusinessLayers;
+
+namespace $ProjectNamespace$.$ModuleName$.Presenters
+{
+    public class $ClassName$PresentationEntityCollectionFactory : PresentationEntityCollectionFactory
+    {
+        private static IPresentationEntityCollectionFactory _factory;
+
+        public static IPresentationEntityCollectionFactory Factory
+        {
+            get
+            {
+                if (_factory == null)
+                {
+                    _factory = new $ClassName$PresentationEntityCollectionFactory();
+                }
+
+                return _factory;
+            }
+        }
+
+        protected override IPresentationEntityCollection Create(IPresenter presenter, IBusinessObjectCollection businessObjectCollection)
+        {
+            return new $ClassName$PresentationEntityCollection(presenter, businessObjectCollection);
+        }
+
+        protected override IPresentationEntityCollection Create(IPresenter presenter)
+        {
+            return new $ClassName$PresentationEntityCollection(presenter);
+        }
+
+        protected override IPresentationEntityCollection Create(IPresenter presenter, IParent parent)
+        {
+            return new $ClassName$PresentationEntityCollection(presenter, parent);
+        }
+
+        protected override IPresentationEntityCollection Create(IObserver observer, IPresenter presenter, IParent parent)
+        {
+            return new $ClassName$PresentationEntityCollection(observer, presenter, parent);
+        }
+    }
+}

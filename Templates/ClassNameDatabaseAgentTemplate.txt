@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+using Payanar.SS.Net.Libraries.DatabaseLayer.Interfaces;
+using Payanar.SS.Net.Libraries.BusinessLayer.Interfaces;
+
+namespace $ProjectNamespace$.$ModuleName$.DatabaseLayer
+{
+    public class $ClassName$DatabaseAgent : DatabaseAgent
+    {
+        public $ClassName$DatabaseAgent(IBusinessObject businessObject)
+            : base(businessObject)
+        {
+            InsertCommand = new $ClassName$InsertCommand(this);
+            UpdateCommand = new $ClassName$UpdateCommand(this);
+            DeleteCommand = new $ClassName$DeleteCommand(this);
+            SelectCommand = new $ClassName$SelectCommand(this, $ClassName$Query.SelectQuery);
+        }
+
+        public $ClassName$DatabaseAgent(IBusinessObjectCollection businessObjectCollection)
+            : base(businessObjectCollection)
+        {
+            SelectAllCommand = new $ClassName$SelectCommand(this, $ClassName$Query.SelectAllQuery);
+        }
+    }
+}

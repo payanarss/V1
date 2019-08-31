@@ -1,0 +1,10 @@
+C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\CMD.Payan.Base.BusinessLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\CMD.Payan.Base.BusinessLayer.Interfaces.pdb
+C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessLayer.Interfaces\obj\Debug\CMD.Payan.Base.BusinessLayer.Interfaces.csprojResolveAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessLayer.Interfaces\obj\Debug\CMD.Payan.Base.BusinessLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessLayer.Interfaces\obj\Debug\CMD.Payan.Base.BusinessLayer.Interfaces.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.BusinessLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.BusinessLayer.Interfaces.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessLayer.Interfaces\obj\Debug\CMD.Payan.Base.BusinessLayer.Interfaces.csprojResolveAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessLayer.Interfaces\obj\Debug\CMD.Payan.Base.BusinessLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessLayer.Interfaces\obj\Debug\CMD.Payan.Base.BusinessLayer.Interfaces.pdb

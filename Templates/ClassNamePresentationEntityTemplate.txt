@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Drawing;
+using Payanar.SS.Net.Libraries.BusinessLayer;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
+using Payanar.SS.Net.Libraries.BusinessLayer.Interfaces;
+using Payanar.SS.Net.Libraries.Common;
+using $ProjectNamespace$.$ModuleName$.BusinessLayers;
+
+namespace $ProjectNamespace$.$ModuleName$.Presenters
+{
+    public class $ClassName$PresentationEntity : PresentationEntity, IParent
+    {
+        #region Private Variables
+
+        #endregion Private Variables
+
+        #region Constructors
+
+        public $ClassName$PresentationEntity(IPresenter presenter)
+            : base(presenter, $ClassName$Factory.Factory)
+        {
+        }
+
+        public $ClassName$PresentationEntity(IPresenter presenter, IBusinessObject businessObject)
+            : base(presenter, businessObject)
+        {
+        }
+
+        public $ClassName$PresentationEntity(IObserver observer, IPresenter presenter, IBusinessObject businessObject)
+            : base(observer, presenter, businessObject)
+        {
+        }
+
+        public $ClassName$PresentationEntity(IObserver observer, IPresenter presenter)
+            : base(observer, presenter, $ClassName$Factory.Factory)
+        {
+        }
+
+        #endregion Constructors
+
+        #region Properties
+	$PropertiesDeclarationCode$
+        public $ClassName$ $ClassName$Detail
+        {
+            get { return BusinessObjectDetail as $ClassName$; }
+        }
+
+        private $ClassName$Presenter $ClassName$PresenterDetail
+        {
+            get { return PresenterDetail as $ClassName$Presenter; }
+        }
+
+        #endregion Properties
+
+        #region Methods
+
+        public override void OnViewReady()
+        {
+            base.OnViewReady();
+        }
+
+        #endregion Methods
+    }
+}

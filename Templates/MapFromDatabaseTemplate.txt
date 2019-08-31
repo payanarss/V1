@@ -1,0 +1,1 @@
+            $ClassName$EntityDetail.$FieldName$ = ConvertType.To$ConvertFieldType$(reader["$FieldName$"].ToString());

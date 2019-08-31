@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+using Payanar.SS.Net.Libraries.DatabaseLayer.Interfaces;
+using $ProjectNamespace$.$ModuleName$.BusinessEntities;
+
+namespace $ProjectNamespace$.$ModuleName$.DatabaseLayer
+{
+    public class $ClassName$UpdateCommand : $ClassName$InsertCommand
+    {
+        public $ClassName$UpdateCommand(IDatabaseAgent databaseAgent)
+            : base(databaseAgent)
+        { }
+
+        protected override string Query()
+        {
+            return $ClassName$Query.UpdateQuery;
+        }
+
+        protected override void MapToDatabase()
+        {
+            AddParameters("@UniqueIdentifier", DbType.Int64, $ClassName$EntityDetail.UniqueIdentifier);
+            base.MapToDatabase();
+        }
+    }
+}

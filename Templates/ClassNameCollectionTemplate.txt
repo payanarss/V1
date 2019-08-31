@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.BusinessLayer;
+using Payanar.SS.Net.Libraries.Common;
+using $ProjectNamespace$.$ModuleName$.BusinessEntities;
+using $ProjectNamespace$.$ModuleName$.DatabaseLayer;
+
+namespace $ProjectNamespace$.$ModuleName$.BusinessLayers
+{
+    public class $ClassName$Collection : BusinessObjectCollection<$ClassName$>
+    {
+	#region Constructors
+
+        public $ClassName$Collection()
+            : base($ClassName$Factory.Factory, $ClassName$DatabaseAgentFactory.Factory)
+        { }
+
+        public $ClassName$Collection(IParent parent)
+            : base($ClassName$Factory.Factory, $ClassName$DatabaseAgentFactory.Factory, parent)
+        {
+        }
+
+	#endregion Constructors
+
+	#region Methods
+
+        public override void WhereParameters()
+        {
+            base.WhereParameters();
+        }
+
+	#endregion
+    }
+}

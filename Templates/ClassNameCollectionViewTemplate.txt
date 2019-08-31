@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.Views.CustomControls;
+using Payanar.SS.Net.Libraries.Common;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
+using $ProjectNamespace$.$ModuleName$.Presenters;
+
+namespace $ProjectNamespace$.$ModuleName$.Views
+{
+    public partial class $ClassName$CollectionView : Payanar.SS.Net.Libraries.Views.CustomControls.DataGridView, I$ClassName$CollectionView, IView
+    {
+        #region Constructors
+
+        public $ClassName$CollectionView()
+            : base($ClassName$CollectionPresenterFactory.Factory)
+        {
+            InitializeComponent();
+            DataGridViewDetail = null;
+            BindingSourceDetail = null;
+            Title = "$ClassName$";
+        }
+
+        public $ClassName$CollectionView(IViewContext viewContext)
+            : base(viewContext, $ClassName$CollectionPresenterFactory.Factory)
+        {
+            InitializeComponent();
+            DataGridViewDetail = null;
+            BindingSourceDetail = null;
+            Title = "MaterialType";
+        }
+
+        #endregion Constructors
+
+        #region Properties
+
+        public $ClassName$PresentationEntityCollection $ClassName$PresentationEntityCollectionDetail
+        {
+            get { return PresentationEntityCollectionDetail as $ClassName$PresentationEntityCollection; }
+        }
+
+        public $ClassName$Presenter $ClassName$PresenterDetail
+        {
+            get { return PresenterDetail as $ClassName$Presenter; }
+        }
+
+        #endregion Properties
+
+        #region Methods
+
+        public override void UpdateObserver(object value)
+        {
+            base.UpdateObserver(value);
+        }
+
+        public override void LoadDatas()
+        {
+            ////$ClassName$PresentationEntityCollectionDetail.Load();
+            base.LoadDatas();
+        }
+
+        #endregion Methods
+    }
+}

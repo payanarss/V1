@@ -1,0 +1,10 @@
+C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\Payanar.SS.Net.Base.BusinessLayer.dll
+C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\Payanar.SS.Net.Base.BusinessLayer.pdb
+C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessLayer\obj\Debug\CMD.Payan.Base.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessLayer\obj\Debug\Payanar.SS.Net.Base.BusinessLayer.dll
+C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.BusinessLayer\obj\Debug\Payanar.SS.Net.Base.BusinessLayer.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Base.BusinessLayer.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Base.BusinessLayer.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessLayer\obj\Debug\CMD.Payan.Base.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessLayer\obj\Debug\Payanar.SS.Net.Base.BusinessLayer.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.BusinessLayer\obj\Debug\Payanar.SS.Net.Base.BusinessLayer.pdb

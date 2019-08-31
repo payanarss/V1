@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
+
+namespace $ProjectNamespace$.$ModuleName$.Presenters
+{
+    public class $ClassName$PresenterFactory : PresenterFactory
+    {
+        private static $ClassName$PresenterFactory _factory;
+
+        protected override IPresenter Create(IView view)
+        {
+            return new $ClassName$Presenter(view);
+        }
+
+        protected override IPresenter Create(IView view, IPresentationEntity presentationEntity)
+        {
+            return new $ClassName$Presenter(view, presentationEntity);
+        }
+
+        public static $ClassName$PresenterFactory Factory
+        {
+            get
+            {
+                if (_factory == null)
+                {
+                    _factory = new $ClassName$PresenterFactory();
+                }
+
+                return _factory;
+            }
+        }
+    }
+}

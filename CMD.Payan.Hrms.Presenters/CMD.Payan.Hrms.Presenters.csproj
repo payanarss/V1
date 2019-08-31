@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59B45428-EC56-46B8-B3C7-FC89267A48D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Payanar.SS.Net.Presenters</RootNamespace>
+    <AssemblyName>Payanar.SS.Net.Presenters</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Dependencies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Payanar.SS.Net.Libraries.BusinessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.BusinessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.BusinessLayer.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.BusinessLayer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.PresentationLayer.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Payanar.SS.Net.Libraries.PresentationLayer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo1.cs" />
+    <Compile Include="PresentationEntities\Entities\AccessDetailsPresentationEntity.cs" />
+    <Compile Include="PresentationEntities\Collections\AccessDetailsPresentationEntityCollection.cs" />
+    <Compile Include="PresentationEntities\Factories\AccessDetailsPresentationEntityFactory.cs" />
+    <Compile Include="PresentationEntities\Factories\AccessDetailsPresentationEntityCollectionFactory.cs" />
+    <Compile Include="Presenters\Factories\AccessDetailsPresenterFactory.cs" />
+    <Compile Include="Presenters\Factories\AccessDetailsCollectionPresenterFactory.cs" />
+    <Compile Include="Presenters\Presenters\AccessDetailsPresenter.cs" />
+    <Compile Include="Presenters\Presenters\AccessDetailsCollectionPresenter.cs" />
+    <Compile Include="Views\IAccessDetailsView.cs" />
+    <Compile Include="Views\IAccessDetailsCollectionView.cs" />
+    <Compile Include="PresentationEntities\Entities\CallLetterPresentationEntity.cs" />
+    <Compile Include="PresentationEntities\Collections\CallLetterPresentationEntityCollection.cs" />
+    <Compile Include="PresentationEntities\Factories\CallLetterPresentationEntityFactory.cs" />
+    <Compile Include="PresentationEntities\Factories\CallLetterPresentationEntityCollectionFactory.cs" />
+    <Compile Include="Presenters\Factories\CallLetterPresenterFactory.cs" />
+    <Compile Include="Presenters\Factories\CallLetterCollectionPresenterFactory.cs" />
+    <Compile Include="Presenters\Presenters\CallLetterPresenter.cs" />
+    <Compile Include="Presenters\Presenters\CallLetterCollectionPresenter.cs" />
+    <Compile Include="Views\ICallLetterView.cs" />
+    <Compile Include="Views\ICallLetterCollectionView.cs" />
+    <Compile Include="PresentationEntities\Entities\TableSequanceNumberPresentationEntity.cs" />
+    <Compile Include="PresentationEntities\Collections\TableSequanceNumberPresentationEntityCollection.cs" />
+    <Compile Include="PresentationEntities\Factories\TableSequanceNumberPresentationEntityFactory.cs" />
+    <Compile Include="PresentationEntities\Factories\TableSequanceNumberPresentationEntityCollectionFactory.cs" />
+    <Compile Include="Presenters\Factories\TableSequanceNumberPresenterFactory.cs" />
+    <Compile Include="Presenters\Factories\TableSequanceNumberCollectionPresenterFactory.cs" />
+    <Compile Include="Presenters\Presenters\TableSequanceNumberPresenter.cs" />
+    <Compile Include="Presenters\Presenters\TableSequanceNumberCollectionPresenter.cs" />
+    <Compile Include="Views\ITableSequanceNumberView.cs" />
+    <Compile Include="Views\ITableSequanceNumberCollectionView.cs" />
+    <Compile Include="PresentationEntities\Entities\InterviewGradePresentationEntity.cs" />
+    <Compile Include="PresentationEntities\Collections\InterviewGradePresentationEntityCollection.cs" />
+    <Compile Include="PresentationEntities\Factories\InterviewGradePresentationEntityFactory.cs" />
+    <Compile Include="PresentationEntities\Factories\InterviewGradePresentationEntityCollectionFactory.cs" />
+    <Compile Include="Presenters\Factories\InterviewGradePresenterFactory.cs" />
+    <Compile Include="Presenters\Factories\InterviewGradeCollectionPresenterFactory.cs" />
+    <Compile Include="Presenters\Presenters\InterviewGradePresenter.cs" />
+    <Compile Include="Presenters\Presenters\InterviewGradeCollectionPresenter.cs" />
+    <Compile Include="Views\IInterviewGradeView.cs" />
+    <Compile Include="Views\IInterviewGradeCollectionView.cs" />
+    <Compile Include="PresentationEntities\Entities\InterviewFormHeaderPresentationEntity.cs" />
+    <Compile Include="PresentationEntities\Collections\InterviewFormHeaderPresentationEntityCollection.cs" />
+    <Compile Include="PresentationEntities\Factories\InterviewFormHeaderPresentationEntityFactory.cs" />
+    <Compile Include="PresentationEntities\Factories\InterviewFormHeaderPresentationEntityCollectionFactory.cs" />
+    <Compile Include="Presenters\Factories\InterviewFormHeaderPresenterFactory.cs" />
+    <Compile Include="Presenters\Factories\InterviewFormHeaderCollectionPresenterFactory.cs" />
+    <Compile Include="Presenters\Presenters\InterviewFormHeaderPresenter.cs" />
+    <Compile Include="Presenters\Presenters\InterviewFormHeaderCollectionPresenter.cs" />
+    <Compile Include="Views\IInterviewFormHeaderView.cs" />
+    <Compile Include="Views\IInterviewFormHeaderCollectionView.cs" />
+    <Compile Include="PresentationEntities\Entities\InterviewFormDetailsPresentationEntity.cs" />
+    <Compile Include="PresentationEntities\Collections\InterviewFormDetailsPresentationEntityCollection.cs" />
+    <Compile Include="PresentationEntities\Factories\InterviewFormDetailsPresentationEntityFactory.cs" />
+    <Compile Include="PresentationEntities\Factories\InterviewFormDetailsPresentationEntityCollectionFactory.cs" />
+    <Compile Include="Presenters\Factories\InterviewFormDetailsPresenterFactory.cs" />
+    <Compile Include="Presenters\Factories\InterviewFormDetailsCollectionPresenterFactory.cs" />
+    <Compile Include="Presenters\Presenters\InterviewFormDetailsPresenter.cs" />
+    <Compile Include="Presenters\Presenters\InterviewFormDetailsCollectionPresenter.cs" />
+    <Compile Include="Views\IInterviewFormDetailsView.cs" />
+    <Compile Include="Views\IInterviewFormDetailsCollectionView.cs" />
+    <!--IncludeCSFile-->
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PresentationEntities\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMD.Payan.Base.BusinessLayer.Interfaces\CMD.Payan.Base.BusinessLayer.Interfaces.csproj">
+      <Project>{4E0004C9-A6C3-42FC-8942-F2E4DF66DB67}</Project>
+      <Name>CMD.Payan.Base.BusinessLayer.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.BusinessLayer\CMD.Payan.Base.BusinessLayer.csproj">
+      <Project>{F962FB9A-4369-49C7-A999-A40502CD3F6D}</Project>
+      <Name>CMD.Payan.Base.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.Common\CMD.Payan.Base.Common.csproj">
+      <Project>{D03B9950-FB41-4AE9-A39E-619ABA0B16DA}</Project>
+      <Name>CMD.Payan.Base.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Base.PresentationLayer.Interfaces\CMD.Payan.Base.PresentationLayer.Interfaces.csproj">
+      <Project>{CE193552-0BA3-469E-AFAC-1B9E7015BEA1}</Project>
+      <Name>CMD.Payan.Base.PresentationLayer.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Hrms.BusinessLayers\CMD.Payan.Hrms.BusinessLayers.csproj">
+      <Project>{6559F44B-A26A-4469-8EA3-1A659612B698}</Project>
+      <Name>CMD.Payan.Hrms.BusinessLayers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

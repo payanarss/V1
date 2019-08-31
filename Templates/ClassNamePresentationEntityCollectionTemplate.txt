@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.Common;
+using Payanar.SS.Net.Libraries.BusinessLayer;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
+using Payanar.SS.Net.Libraries.BusinessLayer.Interfaces;
+using $ProjectNamespace$.$ModuleName$.BusinessLayers;
+
+namespace $ProjectNamespace$.$ModuleName$.Presenters
+{
+    public class $ClassName$PresentationEntityCollection : PresentationEntityCollection<$ClassName$PresentationEntity>
+    {
+        public $ClassName$PresentationEntityCollection(IPresenter presenter, IBusinessObjectCollection businessObjectCollection)
+            : base(presenter, $ClassName$PresentationEntityFactory.Factory, businessObjectCollection)
+        {
+        }
+
+        public $ClassName$PresentationEntityCollection(IPresenter presenter)
+            : base(presenter, $ClassName$PresentationEntityFactory.Factory, $ClassName$CollectionFactory.Factory)
+        {
+        }
+
+        public $ClassName$PresentationEntityCollection(IPresenter presenter, IParent parent)
+            : base(presenter, $ClassName$PresentationEntityFactory.Factory, $ClassName$CollectionFactory.Factory, parent)
+        {
+        }
+
+        public $ClassName$PresentationEntityCollection(IObserver observer, IPresenter presenter, IParent parent)
+            : base(observer, presenter, $ClassName$PresentationEntityFactory.Factory, $ClassName$CollectionFactory.Factory, parent)
+        {
+        }
+    }
+}

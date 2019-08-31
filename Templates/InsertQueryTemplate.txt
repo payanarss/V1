@@ -1,0 +1,1 @@
+Insert into $TableName$ ($InsertColumns$) values ($InsertValues$)

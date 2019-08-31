@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Payanar.SS.Net.Libraries.BusinessLayer;
+using Payanar.SS.Net.Libraries.Common;
+using $ProjectNamespace$.$ModuleName$.BusinessEntities;
+using $ProjectNamespace$.$ModuleName$.DatabaseLayer;
+
+namespace $ProjectNamespace$.$ModuleName$.BusinessLayers
+{
+    public class $ClassName$ : BusinessObject, IParent
+    {
+        #region Private Variables
+
+        #endregion Private Variables
+
+        #region Constructors
+
+        public $ClassName$()
+            : base($ClassName$EntityFactory.Factory, $ClassName$DatabaseAgentFactory.Factory)
+        { }
+
+ 	public $ClassName$(IParent parent)
+            : base($ClassName$EntityFactory.Factory, $ClassName$DatabaseAgentFactory.Factory, parent)
+        { }
+
+        #endregion Constructors
+
+        #region Properties
+	$PropertiesDeclarationCode$
+        private $ClassName$Entity $ClassName$EntityDetail
+        {
+            get { return BusinessEntityObject as $ClassName$Entity; }
+        }
+
+        #endregion Properties
+
+        #region Methods
+
+        #region Public
+
+        public override int Load()
+        {
+            int result = 0;
+
+            result += base.Load();
+
+            return result;
+        }
+
+        #endregion Public
+
+        #region Protected
+
+        protected override bool ValidateBeforeSave()
+        {
+            bool isValid = base.ValidateBeforeSave();
+
+            return isValid;
+        }
+
+        protected override bool ValidateBeforeDelete()
+        {
+            bool isValid = base.ValidateBeforeDelete();
+
+            return isValid;
+        }
+
+        #endregion Protected
+
+	#endregion Methods
+    }
+}

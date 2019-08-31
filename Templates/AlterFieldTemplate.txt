@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[$TableName$] ADD  CONSTRAINT [DF_$TableName$_$FieldName$]  DEFAULT ($DefaultValue$) FOR [$FieldName$]
