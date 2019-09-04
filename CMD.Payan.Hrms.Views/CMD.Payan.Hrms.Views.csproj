@@ -242,6 +242,23 @@
     <Compile Include="Controls\EmployeeDetailUserControl.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Views\TableDetail\TableDetailView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TableDetail\TableDetailView.Designer.cs">
+      <DependentUpon>TableDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableDetail\TableDetailCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TableDetail\TableDetailCollectionView.Designer.cs">
+      <DependentUpon>TableDetailCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\TableDetail\TableDetailViewFactory.cs" />
+    <Compile Include="Factories\TableDetail\TableDetailCollectionViewFactory.cs" />
+    <Compile Include="Controls\TableDetailUserControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <!--IncludeCSFile-->
   </ItemGroup>
   <ItemGroup>

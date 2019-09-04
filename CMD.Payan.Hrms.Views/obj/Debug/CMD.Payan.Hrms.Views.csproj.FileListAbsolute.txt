@@ -25,4 +25,6 @@ C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.Views.d
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.Views.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Views\obj\Debug\CMD.Payan.Hrms.Views.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Views\obj\Debug\CMD.Payan.Hrms.Views.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Views\obj\Debug\CMD.Payan.Hrms.Views.csprojResolveAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Views\obj\Debug\CMD.Payan.Hrms.Views.csprojAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Views\obj\Debug\CMD.Payan.Hrms.Views.csproj.CoreCompileInputs.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Views\obj\Debug\CMD.Payan.Hrms.Views.csproj.CopyComplete

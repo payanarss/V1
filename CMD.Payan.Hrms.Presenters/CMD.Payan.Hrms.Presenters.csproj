@@ -193,7 +193,57 @@
 
 
 <Compile Include="Views\IEmployeeDetailCollectionView.cs" />
+
+
+<Compile Include="PresentationEntities\Entities\TableDetailPresentationEntity.cs" />
+
+
+<Compile Include="PresentationEntities\Collections\TableDetailPresentationEntityCollection.cs" />
+
+
+<Compile Include="PresentationEntities\Factories\TableDetailPresentationEntityFactory.cs" />
+
+
+<Compile Include="PresentationEntities\Factories\TableDetailPresentationEntityCollectionFactory.cs" />
+
+
+<Compile Include="Presenters\Factories\TableDetailPresenterFactory.cs" />
+
+
+<Compile Include="Presenters\Factories\TableDetailCollectionPresenterFactory.cs" />
+
+
+<Compile Include="Presenters\Presenters\TableDetailPresenter.cs" />
+
+
+<Compile Include="Presenters\Presenters\TableDetailCollectionPresenter.cs" />
+
+
+<Compile Include="Views\ITableDetailView.cs" />
+
+
+<Compile Include="Views\ITableDetailCollectionView.cs" />
 <!--IncludeCSFile-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

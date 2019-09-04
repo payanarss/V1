@@ -48,4 +48,15 @@ C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\De
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\CMD.Payan.Hrms.WPF.Views.exe.config
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csprojResolveAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.Common.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.PresentationLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.Views.WPFCustomControls.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.BusinessLayer.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.BusinessLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.BusinessEntity.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.DatabaseLayer.Interfaces.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.MSSqlDatabase.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\bin\Debug\Payanar.SS.Net.Libraries.AccessDatabase.dll
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csprojAssemblyReference.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csproj.CoreCompileInputs.cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.WPF.Views\obj\x86\Debug\CMD.Payan.Hrms.WPF.Views.csproj.CopyComplete

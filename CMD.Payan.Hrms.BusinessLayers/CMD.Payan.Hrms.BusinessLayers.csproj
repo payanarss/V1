@@ -132,7 +132,27 @@
 
 
 <Compile Include="Factories\EmployeeDetailCollectionFactory.cs" />
+
+
+<Compile Include="BusinessLayers\TableDetail.cs" />
+
+
+<Compile Include="Collections\TableDetailCollection.cs" />
+
+
+<Compile Include="Factories\TableDetailFactory.cs" />
+
+
+<Compile Include="Factories\TableDetailCollectionFactory.cs" />
 <!--IncludeCSFile-->
+
+
+
+
+
+
+
+
 
 
 

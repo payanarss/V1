@@ -85,7 +85,17 @@
 
 
 <Compile Include="Factories\EmployeeDetailEntityFactory.cs" />
+
+
+<Compile Include="Entities\TableDetailEntity.cs" />
+
+
+<Compile Include="Factories\TableDetailEntityFactory.cs" />
 <!--IncludeCSFile-->
+
+
+
+
 
 
 

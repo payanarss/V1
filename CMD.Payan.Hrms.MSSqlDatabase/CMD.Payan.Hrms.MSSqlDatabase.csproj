@@ -82,7 +82,12 @@
 
 
 <Compile Include="Queries\EmployeeDetailQuery.cs" />
+
+
+<Compile Include="Queries\TableDetailQuery.cs" />
 <!--IncludeCSFile-->
+
+
 
 
 

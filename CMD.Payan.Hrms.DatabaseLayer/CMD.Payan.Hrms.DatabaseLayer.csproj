@@ -143,7 +143,37 @@
 
 
 <Compile Include="Factories\EmployeeDetailDatabaseAgentFactory.cs" />
+
+
+<Compile Include="DatabaseAgents\TableDetailDatabaseAgent.cs" />
+
+
+<Compile Include="DatabaseCommands\TableDetail\TableDetailInsertCommand.cs" />
+
+
+<Compile Include="DatabaseCommands\TableDetail\TableDetailUpdateCommand.cs" />
+
+
+<Compile Include="DatabaseCommands\TableDetail\TableDetailDeleteCommand.cs" />
+
+
+<Compile Include="DatabaseCommands\TableDetail\TableDetailSelectCommand.cs" />
+
+
+<Compile Include="Factories\TableDetailDatabaseAgentFactory.cs" />
 <!--IncludeCSFile-->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
