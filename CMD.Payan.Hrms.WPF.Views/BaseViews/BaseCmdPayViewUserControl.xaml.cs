@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Payanar.SS.Net.Libraries.Common;
+using Payanar.SS.Net.Libraries.PresentationLayer.Interfaces;
 
 namespace CMD.Payan.Hrms.WPF.Views
 {
@@ -20,7 +22,7 @@ namespace CMD.Payan.Hrms.WPF.Views
     /// </summary>
     public partial class BaseCmdPayViewUserControl : UserControl
     {
-        public BaseCmdPayViewUserControl()
+        public BaseCmdPayViewUserControl() : base()
         {
             InitializeComponent();
         }

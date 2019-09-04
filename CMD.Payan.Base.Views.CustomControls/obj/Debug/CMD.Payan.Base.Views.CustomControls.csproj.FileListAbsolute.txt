@@ -48,11 +48,9 @@ C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.SplashScreenWindow.resources
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.ViewForm.resources
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.csproj.GenerateResource.Cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.csprojAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.csproj.CopyComplete
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Views.CustomControls.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Views.CustomControls.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.Resources.AllResource.resources
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.CustomControls\obj\Debug\CMD.Payan.Base.Views.CustomControls.csprojResolveAssemblyReference.cache

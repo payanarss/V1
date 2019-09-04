@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -133,7 +133,107 @@
     <Compile Include="Presenters\Presenters\InterviewFormDetailsCollectionPresenter.cs" />
     <Compile Include="Views\IInterviewFormDetailsView.cs" />
     <Compile Include="Views\IInterviewFormDetailsCollectionView.cs" />
-    <!--IncludeCSFile-->
+    
+
+<Compile Include="PresentationEntities\Entities\CompanyPresentationEntity.cs" />
+
+
+<Compile Include="PresentationEntities\Collections\CompanyPresentationEntityCollection.cs" />
+
+
+<Compile Include="PresentationEntities\Factories\CompanyPresentationEntityFactory.cs" />
+
+
+<Compile Include="PresentationEntities\Factories\CompanyPresentationEntityCollectionFactory.cs" />
+
+
+<Compile Include="Presenters\Factories\CompanyPresenterFactory.cs" />
+
+
+<Compile Include="Presenters\Factories\CompanyCollectionPresenterFactory.cs" />
+
+
+<Compile Include="Presenters\Presenters\CompanyPresenter.cs" />
+
+
+<Compile Include="Presenters\Presenters\CompanyCollectionPresenter.cs" />
+
+
+<Compile Include="Views\ICompanyView.cs" />
+
+
+<Compile Include="Views\ICompanyCollectionView.cs" />
+
+
+<Compile Include="PresentationEntities\Entities\EmployeeDetailPresentationEntity.cs" />
+
+
+<Compile Include="PresentationEntities\Collections\EmployeeDetailPresentationEntityCollection.cs" />
+
+
+<Compile Include="PresentationEntities\Factories\EmployeeDetailPresentationEntityFactory.cs" />
+
+
+<Compile Include="PresentationEntities\Factories\EmployeeDetailPresentationEntityCollectionFactory.cs" />
+
+
+<Compile Include="Presenters\Factories\EmployeeDetailPresenterFactory.cs" />
+
+
+<Compile Include="Presenters\Factories\EmployeeDetailCollectionPresenterFactory.cs" />
+
+
+<Compile Include="Presenters\Presenters\EmployeeDetailPresenter.cs" />
+
+
+<Compile Include="Presenters\Presenters\EmployeeDetailCollectionPresenter.cs" />
+
+
+<Compile Include="Views\IEmployeeDetailView.cs" />
+
+
+<Compile Include="Views\IEmployeeDetailCollectionView.cs" />
+<!--IncludeCSFile-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

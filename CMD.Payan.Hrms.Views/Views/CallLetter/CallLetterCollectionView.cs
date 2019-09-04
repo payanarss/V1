@@ -12,7 +12,7 @@ using CMD.Payan.Hrms.Presenters;
 
 namespace CMD.Payan.Hrms.Views
 {
-    public partial class CallLetterCollectionView : CMD.Payan.Base.Views.CustomControls.DataGridView, ICallLetterCollectionView, IView
+    public partial class CallLetterCollectionView : Payanar.SS.Net.Libraries.Views.CustomControls.DataGridView, ICallLetterCollectionView, IView
     {
         #region Constructors
 
@@ -20,8 +20,8 @@ namespace CMD.Payan.Hrms.Views
             : base(CallLetterCollectionPresenterFactory.Factory)
         {
             InitializeComponent();
-            DataGridViewDetail = callLetterDataGridView;
-            BindingSourceDetail = callLetterPresentationEntityBindingSource;
+            DataGridViewDetail = null;
+            BindingSourceDetail = null;
             Title = "CallLetter";
         }
 
@@ -29,8 +29,8 @@ namespace CMD.Payan.Hrms.Views
             : base(viewContext, CallLetterCollectionPresenterFactory.Factory)
         {
             InitializeComponent();
-            DataGridViewDetail = callLetterDataGridView;
-            BindingSourceDetail = callLetterPresentationEntityBindingSource;
+            DataGridViewDetail = null;
+            BindingSourceDetail = null;
             Title = "MaterialType";
         }
 

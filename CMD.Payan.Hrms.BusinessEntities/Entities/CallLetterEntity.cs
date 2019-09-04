@@ -11,15 +11,15 @@ namespace CMD.Payan.Hrms.BusinessEntities
     {
         #region Private Variables
 
-        private IField<System.DateTime> _calldate;
-        private IField<System.Int64> _callno;
-        private IField<System.String> _candadd;
-        private IField<System.String> _candto;
-        private IField<System.String> _compcode;
-        private IField<System.String> _contno;
-        private IField<System.String> _intdate;
-        private IField<System.String> _inttime;
-        private IField<System.String> _pos;
+        private IField<System.DateTime> _callletterdate;
+        private IField<System.Int64> _callletternumber;
+        private IField<System.String> _candidateaddress;
+        private IField<System.String> _candidatename;
+        private IField<System.String> _companycode;
+        private IField<System.String> _contactnumber;
+        private IField<System.DateTime> _interviewdate;
+        private IField<System.String> _interviewtime;
+        private IField<System.String> _position;
         private IField<System.String> _regards;
 
         #endregion Private Variables
@@ -42,58 +42,58 @@ namespace CMD.Payan.Hrms.BusinessEntities
 
         #region Properties
 
-        public System.DateTime CallDate
+        public System.DateTime CallLetterDate
         {
-            get { return _calldate.Value; }
-            set { _calldate.Value = value; }
+            get { return _callletterdate.Value; }
+            set { _callletterdate.Value = value; }
         }
 
-        public System.Int64 CallNo
+        public System.Int64 CallLetterNumber
         {
-            get { return _callno.Value; }
-            set { _callno.Value = value; }
+            get { return _callletternumber.Value; }
+            set { _callletternumber.Value = value; }
         }
 
-        public System.String CandAdd
+        public System.String CandidateAddress
         {
-            get { return _candadd.Value; }
-            set { _candadd.Value = value; }
+            get { return _candidateaddress.Value; }
+            set { _candidateaddress.Value = value; }
         }
 
-        public System.String CandTo
+        public System.String CandidateName
         {
-            get { return _candto.Value; }
-            set { _candto.Value = value; }
+            get { return _candidatename.Value; }
+            set { _candidatename.Value = value; }
         }
 
-        public System.String CompCode
+        public System.String CompanyCode
         {
-            get { return _compcode.Value; }
-            set { _compcode.Value = value; }
+            get { return _companycode.Value; }
+            set { _companycode.Value = value; }
         }
 
-        public System.String ContNo
+        public System.String ContactNumber
         {
-            get { return _contno.Value; }
-            set { _contno.Value = value; }
+            get { return _contactnumber.Value; }
+            set { _contactnumber.Value = value; }
         }
 
-        public System.String IntDate
+        public System.DateTime InterviewDate
         {
-            get { return _intdate.Value; }
-            set { _intdate.Value = value; }
+            get { return _interviewdate.Value; }
+            set { _interviewdate.Value = value; }
         }
 
-        public System.String IntTime
+        public System.String InterviewTime
         {
-            get { return _inttime.Value; }
-            set { _inttime.Value = value; }
+            get { return _interviewtime.Value; }
+            set { _interviewtime.Value = value; }
         }
 
-        public System.String Pos
+        public System.String Position
         {
-            get { return _pos.Value; }
-            set { _pos.Value = value; }
+            get { return _position.Value; }
+            set { _position.Value = value; }
         }
 
         public System.String Regards
@@ -108,15 +108,15 @@ namespace CMD.Payan.Hrms.BusinessEntities
 
         private void InitializeFields()
         {
-            _calldate = FieldFactory<System.DateTime>.Factory.Instance(this);
-            _callno = FieldFactory<System.Int64>.Factory.Instance(this);
-            _candadd = FieldFactory<System.String>.Factory.Instance(this);
-            _candto = FieldFactory<System.String>.Factory.Instance(this);
-            _compcode = FieldFactory<System.String>.Factory.Instance(this);
-            _contno = FieldFactory<System.String>.Factory.Instance(this);
-            _intdate = FieldFactory<System.String>.Factory.Instance(this);
-            _inttime = FieldFactory<System.String>.Factory.Instance(this);
-            _pos = FieldFactory<System.String>.Factory.Instance(this);
+            _callletterdate = FieldFactory<System.DateTime>.Factory.Instance(this);
+            _callletternumber = FieldFactory<System.Int64>.Factory.Instance(this);
+            _candidateaddress = FieldFactory<System.String>.Factory.Instance(this);
+            _candidatename = FieldFactory<System.String>.Factory.Instance(this);
+            _companycode = FieldFactory<System.String>.Factory.Instance(this);
+            _contactnumber = FieldFactory<System.String>.Factory.Instance(this);
+            _interviewdate = FieldFactory<System.DateTime>.Factory.Instance(this);
+            _interviewtime = FieldFactory<System.String>.Factory.Instance(this);
+            _position = FieldFactory<System.String>.Factory.Instance(this);
             _regards = FieldFactory<System.String>.Factory.Instance(this);
         }
 

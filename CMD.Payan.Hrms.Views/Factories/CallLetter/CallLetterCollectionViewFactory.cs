@@ -28,9 +28,9 @@ namespace CMD.Payan.Hrms.Views
             return new CallLetterCollectionView();
         }
 
-        protected override IView Create(IViewContext viewContext)
-        {
-            return new CallLetterCollectionView(viewContext);
-        }
+        ////protected override IView Create(IViewContext viewContext)
+        ////{
+            ////return new CallLetterCollectionView(viewContext);
+        ////}
     }
 }

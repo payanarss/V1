@@ -6,5 +6,3 @@ C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Common.
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Common.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Common\obj\Debug\CMD.Payan.Base.Common.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Common\obj\Debug\CMD.Payan.Base.Common.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Common\obj\Debug\CMD.Payan.Base.Common.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Common\obj\Debug\CMD.Payan.Base.Common.csproj.CopyComplete

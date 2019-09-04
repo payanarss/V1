@@ -8,9 +8,6 @@ C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Co
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Company.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Company.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.LicenseResource.resources
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.csproj.GenerateResource.Cache
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.csproj.GenerateResource.cache
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.csproj.CopyComplete
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Company\obj\Debug\CMD.Payan.Base.Company.csprojAssemblyReference.cache

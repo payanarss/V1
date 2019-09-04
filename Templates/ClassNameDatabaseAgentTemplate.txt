@@ -8,7 +8,7 @@ using Payanar.SS.Net.Libraries.BusinessLayer.Interfaces;
 
 namespace $ProjectNamespace$.$ModuleName$.DatabaseLayer
 {
-    public class $ClassName$DatabaseAgent : DatabaseAgent
+    public class $ClassName$DatabaseAgent : $ProjectNamespace$.Base.DatabaseLayer.Interfaces.DatabaseAgent
     {
         public $ClassName$DatabaseAgent(IBusinessObject businessObject)
             : base(businessObject)

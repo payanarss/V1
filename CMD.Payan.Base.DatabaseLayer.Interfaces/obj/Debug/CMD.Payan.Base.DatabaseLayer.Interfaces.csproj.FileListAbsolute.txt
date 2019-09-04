@@ -3,10 +3,8 @@ C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\Payanar.SS.Net.Base.DatabaseLayer.Int
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\Payanar.SS.Net.Base.DatabaseLayer.Interfaces.dll
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\Payanar.SS.Net.Base.DatabaseLayer.Interfaces.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.csprojAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.csproj.CopyComplete
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.DatabaseLayer.Interfaces.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.DatabaseLayer.Interfaces.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.DatabaseLayer.Interfaces\obj\Debug\CMD.Payan.Base.DatabaseLayer.Interfaces.csprojResolveAssemblyReference.cache

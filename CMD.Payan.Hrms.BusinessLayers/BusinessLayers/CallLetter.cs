@@ -19,68 +19,107 @@ namespace CMD.Payan.Hrms.BusinessLayers
 
         public CallLetter()
             : base(CallLetterEntityFactory.Factory, CallLetterDatabaseAgentFactory.Factory)
-        { }
+        {
+            InitializeProtected();
+        }
 
- 	public CallLetter(IParent parent)
+        public CallLetter(IParent parent)
             : base(CallLetterEntityFactory.Factory, CallLetterDatabaseAgentFactory.Factory, parent)
-        { }
+        {
+            InitializeProtected();
+        }
 
         #endregion Constructors
 
         #region Properties
-	
-        public System.DateTime CallDate
+
+        private Company _companyInstance = null;
+        public Company CompanyInstance
         {
-            get { return CallLetterEntityDetail.CallDate; }
-            set { CallLetterEntityDetail.CallDate = value; }
+            get
+            {
+                if (_companyInstance == null)
+                    _companyInstance = CMD.Payan.Hrms.BusinessLayers.CompanyFactory.Factory.Instance() as Company;
+
+                return _companyInstance;
+            }
         }
 
-        public System.Int64 CallNo
+        private Employee _employeeInstance = null;
+        public Employee EmployeeInstance
         {
-            get { return CallLetterEntityDetail.CallNo; }
-            set { CallLetterEntityDetail.CallNo = value; }
+            get
+            {
+                if (_employeeInstance == null)
+                    _employeeInstance = EmployeeCollectionFactry.Instance.SingletonInstance.GetEmployeeBy(Regards);
+
+                return _employeeInstance;
+            }
+            set
+            {
+                _employeeInstance = value;
+                Regards = _employeeInstance.Name;
+            }
         }
 
-        public System.String CandAdd
+        public System.DateTime CallLetterDate
         {
-            get { return CallLetterEntityDetail.CandAdd; }
-            set { CallLetterEntityDetail.CandAdd = value; }
+            get { return CallLetterEntityDetail.CallLetterDate; }
+            set { CallLetterEntityDetail.CallLetterDate = value; }
         }
 
-        public System.String CandTo
+        public System.Int64 CallLetterNumber
         {
-            get { return CallLetterEntityDetail.CandTo; }
-            set { CallLetterEntityDetail.CandTo = value; }
+            get { return CallLetterEntityDetail.CallLetterNumber; }
+            set { CallLetterEntityDetail.CallLetterNumber = value; }
         }
 
-        public System.String CompCode
+        public System.String CandidateAddress
         {
-            get { return CallLetterEntityDetail.CompCode; }
-            set { CallLetterEntityDetail.CompCode = value; }
+            get { return CallLetterEntityDetail.CandidateAddress; }
+            set { CallLetterEntityDetail.CandidateAddress = value; }
         }
 
-        public System.String ContNo
+        public System.String CandidateName
         {
-            get { return CallLetterEntityDetail.ContNo; }
-            set { CallLetterEntityDetail.ContNo = value; }
+            get { return CallLetterEntityDetail.CandidateName; }
+            set { CallLetterEntityDetail.CandidateName = value; }
         }
 
-        public System.String IntDate
+        public System.String CompanyCode
         {
-            get { return CallLetterEntityDetail.IntDate; }
-            set { CallLetterEntityDetail.IntDate = value; }
+            get { return CallLetterEntityDetail.CompanyCode; }
+            set { CallLetterEntityDetail.CompanyCode = value; }
         }
 
-        public System.String IntTime
+        public System.String CompanyName
         {
-            get { return CallLetterEntityDetail.IntTime; }
-            set { CallLetterEntityDetail.IntTime = value; }
+            get { return CompanyInstance.CompanyName; }
+            set { CompanyInstance.CompanyName = value; }
         }
 
-        public System.String Pos
+        public System.String ContactNumber
         {
-            get { return CallLetterEntityDetail.Pos; }
-            set { CallLetterEntityDetail.Pos = value; }
+            get { return CallLetterEntityDetail.ContactNumber; }
+            set { CallLetterEntityDetail.ContactNumber = value; }
+        }
+
+        public System.DateTime InterviewDate
+        {
+            get { return CallLetterEntityDetail.InterviewDate; }
+            set { CallLetterEntityDetail.InterviewDate = value; }
+        }
+
+        public System.String InterviewTime
+        {
+            get { return CallLetterEntityDetail.InterviewTime; }
+            set { CallLetterEntityDetail.InterviewTime = value; }
+        }
+
+        public System.String Position
+        {
+            get { return CallLetterEntityDetail.Position; }
+            set { CallLetterEntityDetail.Position = value; }
         }
 
         public System.String Regards
@@ -127,8 +166,13 @@ namespace CMD.Payan.Hrms.BusinessLayers
             return isValid;
         }
 
+        protected void InitializeProtected()
+        {
+            CompanyCode = CompanyInstance.CompanyCode;
+        }
+
         #endregion Protected
 
-	#endregion Methods
+        #endregion Methods
     }
 }

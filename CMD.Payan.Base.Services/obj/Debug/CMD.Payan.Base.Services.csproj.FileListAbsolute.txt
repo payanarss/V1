@@ -7,6 +7,5 @@ C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.Services\obj\Debug\Payanar.SS.Net.B
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Base.Services.dll.config
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Base.Services.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Base.Services.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Services\obj\Debug\CMD.Payan.Base.Services.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Services\obj\Debug\Payanar.SS.Net.Base.Services.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Services\obj\Debug\Payanar.SS.Net.Base.Services.pdb

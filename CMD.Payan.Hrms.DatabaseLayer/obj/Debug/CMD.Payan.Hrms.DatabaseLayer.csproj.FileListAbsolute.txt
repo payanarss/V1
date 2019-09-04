@@ -3,10 +3,8 @@ C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\Payanar.SS.Net.DatabaseLayer.pdb
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\CMD.Payan.Hrms.DatabaseLayer.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\Payanar.SS.Net.DatabaseLayer.dll
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\Payanar.SS.Net.DatabaseLayer.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\CMD.Payan.Hrms.DatabaseLayer.csprojAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\CMD.Payan.Hrms.DatabaseLayer.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\CMD.Payan.Hrms.DatabaseLayer.csproj.CopyComplete
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.DatabaseLayer.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.DatabaseLayer.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\CMD.Payan.Hrms.DatabaseLayer.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\CMD.Payan.Hrms.DatabaseLayer.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.DatabaseLayer\obj\Debug\CMD.Payan.Hrms.DatabaseLayer.csprojResolveAssemblyReference.cache

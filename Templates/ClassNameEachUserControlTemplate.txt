@@ -1,0 +1,4 @@
+
+    public class $FieldName$$ControlType$ : $ProjectName$.Base.Views.Controls.$ControlType$
+    {
+    }

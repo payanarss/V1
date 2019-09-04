@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CMD.Payan.Hrms.WPF.Views"
+             xmlns:e="clr-namespace:Payanar.SS.Net.Libraries.Views.WPFCustomControls;assembly=Payanar.SS.Net.Libraries.Views.WPFCustomControls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Border BorderThickness="1" BorderBrush="Red">

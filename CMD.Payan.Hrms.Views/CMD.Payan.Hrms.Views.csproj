@@ -76,9 +76,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\CallLetter.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="Controls\CallLetter.cs" />
     <Compile Include="Factories\MainViews\MainViewFactory.cs" />
     <Compile Include="Factories\MainViews\ModelsViewFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -207,6 +205,43 @@
     </Compile>
     <Compile Include="Factories\InterviewFormDetails\InterviewFormDetailsViewFactory.cs" />
     <Compile Include="Factories\InterviewFormDetails\InterviewFormDetailsCollectionViewFactory.cs" />
+    <Compile Include="Controls\CallLetterUserControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Company\CompanyView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Company\CompanyView.Designer.cs">
+      <DependentUpon>CompanyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Company\CompanyCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Company\CompanyCollectionView.Designer.cs">
+      <DependentUpon>CompanyCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\Company\CompanyViewFactory.cs" />
+    <Compile Include="Factories\Company\CompanyCollectionViewFactory.cs" />
+    <Compile Include="Controls\CompanyUserControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\EmployeeDetail\EmployeeDetailView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EmployeeDetail\EmployeeDetailView.Designer.cs">
+      <DependentUpon>EmployeeDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeDetail\EmployeeDetailCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EmployeeDetail\EmployeeDetailCollectionView.Designer.cs">
+      <DependentUpon>EmployeeDetailCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\EmployeeDetail\EmployeeDetailViewFactory.cs" />
+    <Compile Include="Factories\EmployeeDetail\EmployeeDetailCollectionViewFactory.cs" />
+    <Compile Include="Controls\EmployeeDetailUserControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <!--IncludeCSFile-->
   </ItemGroup>
   <ItemGroup>

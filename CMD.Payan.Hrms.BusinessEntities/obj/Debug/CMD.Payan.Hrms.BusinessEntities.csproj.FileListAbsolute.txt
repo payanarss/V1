@@ -3,10 +3,8 @@ C:\Bhu\CS\Payanarss\CMD.Payan\Dependencies\Payanar.SS.Net.BusinessEntities.pdb
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\CMD.Payan.Hrms.BusinessEntities.csprojResolveAssemblyReference.cache
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\Payanar.SS.Net.BusinessEntities.dll
 C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\Payanar.SS.Net.BusinessEntities.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\CMD.Payan.Hrms.BusinessEntities.csprojAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\CMD.Payan.Hrms.BusinessEntities.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\CMD.Payan.Hrms.BusinessEntities.csproj.CopyComplete
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.BusinessEntities.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.BusinessEntities.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\CMD.Payan.Hrms.BusinessEntities.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\CMD.Payan.Hrms.BusinessEntities.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.BusinessEntities\obj\Debug\CMD.Payan.Hrms.BusinessEntities.csprojResolveAssemblyReference.cache

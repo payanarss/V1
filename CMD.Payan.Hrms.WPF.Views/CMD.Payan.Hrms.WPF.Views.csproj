@@ -36,6 +36,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Payanar.SS.Net.Libraries.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.Common\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.PresentationLayer.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.PresentationLayer.Interfaces\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.PresentationLayer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Payanar.SS.Net.Libraries.Views.WPFCustomControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af4c74b7ada8098a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Payanar.SS.Net.Libraries.Views.WPFCustomControls\v4.0_1.0.0.0__af4c74b7ada8098a\Payanar.SS.Net.Libraries.Views.WPFCustomControls.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -55,6 +67,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\CallLetter\CallLetter.xaml.cs">
       <DependentUpon>CallLetter.xaml</DependentUpon>
     </Compile>
@@ -77,10 +92,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -97,10 +108,10 @@
     <Compile Include="BaseViews\PayanarTableUserControl.xaml.cs">
       <DependentUpon>PayanarTableUserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\CallLetter\CallLetter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -128,6 +139,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -149,7 +161,16 @@
   <ItemGroup>
     <Resource Include="Payanar_Yellow_Red_V1.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CMD.Payan.Hrms.BusinessLayers\CMD.Payan.Hrms.BusinessLayers.csproj">
+      <Project>{6559f44b-a26a-4469-8ea3-1a659612b698}</Project>
+      <Name>CMD.Payan.Hrms.BusinessLayers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMD.Payan.Hrms.Presenters\CMD.Payan.Hrms.Presenters.csproj">
+      <Project>{59b45428-ec56-46b8-b3c7-fc89267a48d0}</Project>
+      <Name>CMD.Payan.Hrms.Presenters</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Sunfl.jpg" />
   </ItemGroup>

@@ -41,34 +41,34 @@ namespace CMD.Payan.Hrms.Views
             // 
             // TaskBarPanel
             // 
-            this.TaskBarPanel.Size = new System.Drawing.Size(705, 22);
+            this.TaskBarPanel.Size = new System.Drawing.Size(605, 22);
             // 
             // BodyPanel
             // 
             this.BodyPanel.Controls.Add(this.callLetterDateDateTimePicker1);
             this.BodyPanel.Controls.Add(this.callLetterNumberTextBox1);
             this.BodyPanel.Location = new System.Drawing.Point(0, 44);
-            this.BodyPanel.Size = new System.Drawing.Size(705, 535);
+            this.BodyPanel.Size = new System.Drawing.Size(605, 293);
             // 
             // ToolBarPanel
             // 
-            this.ToolBarPanel.Size = new System.Drawing.Size(705, 22);
+            this.ToolBarPanel.Size = new System.Drawing.Size(605, 22);
             // 
             // AdditionalMenuButtonsPanel
             // 
-            this.AdditionalMenuButtonsPanel.Size = new System.Drawing.Size(527, 18);
+            this.AdditionalMenuButtonsPanel.Size = new System.Drawing.Size(427, 18);
             // 
             // closePanel
             // 
-            this.closePanel.Location = new System.Drawing.Point(680, 2);
+            this.closePanel.Location = new System.Drawing.Point(580, 2);
             // 
             // BasePanel
             // 
-            this.BasePanel.Size = new System.Drawing.Size(705, 579);
+            this.BasePanel.Size = new System.Drawing.Size(605, 337);
             // 
             // callLetterNumberTextBox1
             // 
-            this.callLetterNumberTextBox1.Location = new System.Drawing.Point(108, 19);
+            this.callLetterNumberTextBox1.Location = new System.Drawing.Point(55, 23);
             this.callLetterNumberTextBox1.Name = "callLetterNumberTextBox1";
             this.callLetterNumberTextBox1.Size = new System.Drawing.Size(100, 18);
             this.callLetterNumberTextBox1.TabIndex = 0;
@@ -76,9 +76,9 @@ namespace CMD.Payan.Hrms.Views
             // callLetterDateDateTimePicker1
             // 
             this.callLetterDateDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.callLetterDateDateTimePicker1.Location = new System.Drawing.Point(420, 19);
+            this.callLetterDateDateTimePicker1.Location = new System.Drawing.Point(362, 21);
             this.callLetterDateDateTimePicker1.Name = "callLetterDateDateTimePicker1";
-            this.callLetterDateDateTimePicker1.Size = new System.Drawing.Size(104, 18);
+            this.callLetterDateDateTimePicker1.Size = new System.Drawing.Size(200, 18);
             this.callLetterDateDateTimePicker1.TabIndex = 1;
             // 
             // CallLetterView
@@ -87,7 +87,7 @@ namespace CMD.Payan.Hrms.Views
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "CallLetterView";
             this.ShowTitle = true;
-            this.Size = new System.Drawing.Size(707, 581);
+            this.Size = new System.Drawing.Size(607, 339);
             this.TaskBarPanel.ResumeLayout(false);
             this.TaskBarPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BindingSource)).EndInit();
@@ -103,7 +103,7 @@ namespace CMD.Payan.Hrms.Views
 
         #endregion
 
-        private CMD.Payan.Hrms.Views.CallLetterDateDateTimePicker callLetterDateDateTimePicker1;
-        private CMD.Payan.Hrms.Views.CallLetterNumberTextBox callLetterNumberTextBox1;
+        private CallLetterDateDateTimePicker callLetterDateDateTimePicker1;
+        private CallLetterNumberTextBox callLetterNumberTextBox1;
     }
 }

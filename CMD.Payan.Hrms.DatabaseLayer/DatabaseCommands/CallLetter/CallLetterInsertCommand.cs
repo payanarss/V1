@@ -21,15 +21,15 @@ namespace CMD.Payan.Hrms.DatabaseLayer
 
         protected override void MapToDatabase()
         {
-	                AddParameters("@CallDate", GetDbType("System.DateTime"), CallLetterEntityDetail.CallDate);
-            AddParameters("@CallNo", GetDbType("System.Int64"), CallLetterEntityDetail.CallNo);
-            AddParameters("@CandAdd", GetDbType("System.String"), CallLetterEntityDetail.CandAdd);
-            AddParameters("@CandTo", GetDbType("System.String"), CallLetterEntityDetail.CandTo);
-            AddParameters("@CompCode", GetDbType("System.String"), CallLetterEntityDetail.CompCode);
-            AddParameters("@ContNo", GetDbType("System.String"), CallLetterEntityDetail.ContNo);
-            AddParameters("@IntDate", GetDbType("System.String"), CallLetterEntityDetail.IntDate);
-            AddParameters("@IntTime", GetDbType("System.String"), CallLetterEntityDetail.IntTime);
-            AddParameters("@Pos", GetDbType("System.String"), CallLetterEntityDetail.Pos);
+	                AddParameters("@CallLetterDate", GetDbType("System.DateTime"), CallLetterEntityDetail.CallLetterDate);
+            AddParameters("@CallLetterNumber", GetDbType("System.Int64"), CallLetterEntityDetail.CallLetterNumber);
+            AddParameters("@CandidateAddress", GetDbType("System.String"), CallLetterEntityDetail.CandidateAddress);
+            AddParameters("@CandidateName", GetDbType("System.String"), CallLetterEntityDetail.CandidateName);
+            AddParameters("@CompanyCode", GetDbType("System.String"), CallLetterEntityDetail.CompanyCode);
+            AddParameters("@ContactNumber", GetDbType("System.String"), CallLetterEntityDetail.ContactNumber);
+            AddParameters("@InterviewDate", GetDbType("System.String"), CallLetterEntityDetail.InterviewDate);
+            AddParameters("@InterviewTime", GetDbType("System.String"), CallLetterEntityDetail.InterviewTime);
+            AddParameters("@Position", GetDbType("System.String"), CallLetterEntityDetail.Position);
             AddParameters("@Regards", GetDbType("System.String"), CallLetterEntityDetail.Regards);
 
             base.MapToDatabase();

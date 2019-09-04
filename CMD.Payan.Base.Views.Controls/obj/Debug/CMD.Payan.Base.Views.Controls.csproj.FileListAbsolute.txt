@@ -9,9 +9,6 @@ C:\Bhu\CS\Payanarss\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\Payanar.SS
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\CMD.Payan.Base.Views.Controls.Form.resources
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\CMD.Payan.Base.Views.Controls.UserControl.resources
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\CMD.Payan.Base.Views.Controls.csproj.GenerateResource.Cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\CMD.Payan.Base.Views.Controls.csprojAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\CMD.Payan.Base.Views.Controls.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\CMD.Payan.Base.Views.Controls.csproj.CopyComplete
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Views.Controls.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Base.Views.Controls.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Base.Views.Controls\obj\Debug\CMD.Payan.Base.Views.Controls.dll
