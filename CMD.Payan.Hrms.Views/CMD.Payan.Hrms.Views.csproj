@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -256,10 +256,222 @@
     </Compile>
     <Compile Include="Factories\TableDetail\TableDetailViewFactory.cs" />
     <Compile Include="Factories\TableDetail\TableDetailCollectionViewFactory.cs" />
-    <Compile Include="Controls\TableDetailUserControl.cs">
+    <Compile Include="Views\TableInformation\TableInformationView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TableInformation\TableInformationView.Designer.cs">
+      <DependentUpon>TableInformationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableInformation\TableInformationCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TableInformation\TableInformationCollectionView.Designer.cs">
+      <DependentUpon>TableInformationCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\TableInformation\TableInformationViewFactory.cs" />
+    <Compile Include="Factories\TableInformation\TableInformationCollectionViewFactory.cs" />
+    <Compile Include="Views\PayanarApplication\PayanarApplicationView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PayanarApplication\PayanarApplicationView.Designer.cs">
+      <DependentUpon>PayanarApplicationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PayanarApplication\PayanarApplicationCollectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PayanarApplication\PayanarApplicationCollectionView.Designer.cs">
+      <DependentUpon>PayanarApplicationCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\PayanarApplication\PayanarApplicationViewFactory.cs" />
+    <Compile Include="Factories\PayanarApplication\PayanarApplicationCollectionViewFactory.cs" />
+    <Compile Include="Controls\PayanarApplicationUserControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <!--IncludeCSFile-->
+    <Compile Include="Windows\PayanarApplication.cs" />
+    <Compile Include="Controls\TableInformationUserControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    
+
+<Compile Include="Views\InterviewFactor\InterviewFactorView.cs" />
+
+
+<Compile Include="Views\InterviewFactor\InterviewFactorView.Designer.cs">
+	<DependentUpon>InterviewFactorView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Views\InterviewFactor\InterviewFactorCollectionView.cs" />
+
+
+<Compile Include="Views\InterviewFactor\InterviewFactorCollectionView.Designer.cs">
+	<DependentUpon>InterviewFactorCollectionView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Factories\InterviewFactor\InterviewFactorViewFactory.cs" />
+
+
+<Compile Include="Factories\InterviewFactor\InterviewFactorCollectionViewFactory.cs" />
+
+
+<Compile Include="Controls\InterviewFactorUserControl.cs" />
+
+
+<Compile Include="Views\AppointmentOrderFactor\AppointmentOrderFactorView.cs">
+
+	<SubType>UserControl</SubType>
+
+</Compile>
+
+
+<Compile Include="Views\AppointmentOrderFactor\AppointmentOrderFactorView.Designer.cs">
+	<DependentUpon>AppointmentOrderFactorView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Views\AppointmentOrderFactor\AppointmentOrderFactorCollectionView.cs">
+
+	<SubType>UserControl</SubType>
+
+</Compile>
+
+
+<Compile Include="Views\AppointmentOrderFactor\AppointmentOrderFactorCollectionView.Designer.cs">
+	<DependentUpon>AppointmentOrderFactorCollectionView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Factories\AppointmentOrderFactor\AppointmentOrderFactorViewFactory.cs" />
+
+
+<Compile Include="Factories\AppointmentOrderFactor\AppointmentOrderFactorCollectionViewFactory.cs" />
+
+
+<Compile Include="Controls\AppointmentOrderFactorUserControl.cs" />
+
+
+<Compile Include="Views\AssessmentFactor\AssessmentFactorView.cs">
+
+	<SubType>UserControl</SubType>
+
+</Compile>
+
+
+<Compile Include="Views\AssessmentFactor\AssessmentFactorView.Designer.cs">
+	<DependentUpon>AssessmentFactorView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Views\AssessmentFactor\AssessmentFactorCollectionView.cs">
+
+	<SubType>UserControl</SubType>
+
+</Compile>
+
+
+<Compile Include="Views\AssessmentFactor\AssessmentFactorCollectionView.Designer.cs">
+	<DependentUpon>AssessmentFactorCollectionView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Factories\AssessmentFactor\AssessmentFactorViewFactory.cs" />
+
+
+<Compile Include="Factories\AssessmentFactor\AssessmentFactorCollectionViewFactory.cs" />
+
+
+<Compile Include="Controls\AssessmentFactorUserControl.cs" />
+
+
+<Compile Include="Views\ExitInterviewFactor\ExitInterviewFactorView.cs">
+
+	<SubType>UserControl</SubType>
+
+</Compile>
+
+
+<Compile Include="Views\ExitInterviewFactor\ExitInterviewFactorView.Designer.cs">
+	<DependentUpon>ExitInterviewFactorView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Views\ExitInterviewFactor\ExitInterviewFactorCollectionView.cs">
+
+	<SubType>UserControl</SubType>
+
+</Compile>
+
+
+<Compile Include="Views\ExitInterviewFactor\ExitInterviewFactorCollectionView.Designer.cs">
+	<DependentUpon>ExitInterviewFactorCollectionView.cs</DependentUpon>
+</Compile>
+
+
+<Compile Include="Factories\ExitInterviewFactor\ExitInterviewFactorViewFactory.cs" />
+
+
+<Compile Include="Factories\ExitInterviewFactor\ExitInterviewFactorCollectionViewFactory.cs" />
+
+
+<Compile Include="Controls\ExitInterviewFactorUserControl.cs" />
+<!--IncludeCSFile-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

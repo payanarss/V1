@@ -9,12 +9,12 @@ namespace CMD.Payan.Hrms.DatabaseLayer
     {
         public static string InsertQuery
         {
-            get { return @"Insert into dbo.CallLetter ( CallLetterDate, CallLetterNumber, CandidateAddress, CandidateName, CompanyCode, ContactNumber, InterviewDate, InterviewTime, Position, Regards) values ( @CallLetterDate, @CallLetterNumber, @CandidateAddress, @CandidateName, @CompanyCode, @ContactNumber, @InterviewDate, @InterviewTime, @Position, @Regards)"; }
+            get { return @"Insert into dbo.CallLetter ( CallLetterDate, CallLetterNumber, CandidateAddress, CandidateName, CompanyCode, ContactNumber, InterviewDate, InterviewTime, DesignationCode, Regards, UniqueIdentifier, RowID) values ( @CallLetterDate, @CallLetterNumber, @CandidateAddress, @CandidateName, @CompanyCode, @ContactNumber, @InterviewDate, @InterviewTime, @DesignationCode, @Regards, @UniqueIdentifier, @RowID)"; }
         }
 
         public static string UpdateQuery
         {
-            get { return @"Update dbo.CallLetter set  CallLetterDate=@CallLetterDate, CallLetterNumber=@CallLetterNumber, CandidateAddress=@CandidateAddress, CandidateName=@CandidateName, CompanyCode=@CompanyCode, ContactNumber=@ContactNumber, InterviewDate=@InterviewDate, InterviewTime=@InterviewTime, Position=@Position, Regards=@Regards where [UniqueIdentifier]=@UniqueIdentifier"; }
+            get { return @"Update dbo.CallLetter set  CallLetterDate=@CallLetterDate, CallLetterNumber=@CallLetterNumber, CandidateAddress=@CandidateAddress, CandidateName=@CandidateName, CompanyCode=@CompanyCode, ContactNumber=@ContactNumber, InterviewDate=@InterviewDate, InterviewTime=@InterviewTime, DesignationCode=@DesignationCode, Regards=@Regards, UniqueIdentifier=@UniqueIdentifier, RowID=@RowID where [UniqueIdentifier]=@UniqueIdentifier"; }
         }
 
         public static string DeleteQuery
@@ -24,12 +24,12 @@ namespace CMD.Payan.Hrms.DatabaseLayer
 
         public static string SelectQuery
         {
-            get { return @"Select  CallLetterDate, CallLetterNumber, CandidateAddress, CandidateName, CompanyCode, ContactNumber, InterviewDate, InterviewTime, Position, Regards from dbo.CallLetter where [UniqueIdentifier]=@UniqueIdentifier"; }
+            get { return @"Select  CallLetterDate, CallLetterNumber, CandidateAddress, CandidateName, CompanyCode, ContactNumber, InterviewDate, InterviewTime, DesignationCode, Regards, UniqueIdentifier, RowID from dbo.CallLetter where [UniqueIdentifier]=@UniqueIdentifier"; }
         }
 
         public static string SelectAllQuery
         {
-            get { return @"Select  CallLetterDate, CallLetterNumber, CandidateAddress, CandidateName, CompanyCode, ContactNumber, InterviewDate, InterviewTime, Position, Regards from dbo.CallLetter"; }
+            get { return @"Select  CallLetterDate, CallLetterNumber, CandidateAddress, CandidateName, CompanyCode, ContactNumber, InterviewDate, InterviewTime, DesignationCode, Regards, UniqueIdentifier, RowID from dbo.CallLetter"; }
         }
     }
 }

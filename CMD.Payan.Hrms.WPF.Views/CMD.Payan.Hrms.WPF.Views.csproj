@@ -70,6 +70,7 @@
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StartUp\PayanarApplication.cs" />
     <Compile Include="Views\CallLetter\CallLetter.xaml.cs">
       <DependentUpon>CallLetter.xaml</DependentUpon>
     </Compile>

@@ -9,22 +9,22 @@ namespace CMD.Payan.Hrms.DatabaseLayer
     {
         public static string InsertQuery
         {
-            get { return @"Insert into TableDetail ( TableName, SequenceNumber, NextSequenceNumber, CurrentDate) values ( @TableName, @SequenceNumber, @NextSequenceNumber, @CurrentDate)"; }
+            get { return @"Insert into TableInformaton ( TableName, SequenceNumber, NextSequenceNumber, CurrentDate) values ( @TableName, @SequenceNumber, @NextSequenceNumber, @CurrentDate)"; }
         }
 
         public static string UpdateQuery
         {
-            get { return @"Update TableDetail set  TableName=@TableName, SequenceNumber=@SequenceNumber, NextSequenceNumber=@NextSequenceNumber, CurrentDate=@CurrentDate where [UniqueIdentifier]=@UniqueIdentifier"; }
+            get { return @"Update TableInformaton set  TableName=@TableName, SequenceNumber=@SequenceNumber, NextSequenceNumber=@NextSequenceNumber, CurrentDate=@CurrentDate where [UniqueIdentifier]=@UniqueIdentifier"; }
         }
 
         public static string DeleteQuery
         {
-            get { return @"Delete from TableDetail where [UniqueIdentifier]=@UniqueIdentifier"; }
+            get { return @"Delete from TableInformaton where [UniqueIdentifier]=@UniqueIdentifier"; }
         }
 
         public static string SelectQuery
         {
-            get { return @"Select  TableName, SequenceNumber, NextSequenceNumber, CurrentDate from TableDetail where [UniqueIdentifier]=@UniqueIdentifier"; }
+            get { return @"Select  TableName, SequenceNumber, NextSequenceNumber, CurrentDate from TableInformaton where [UniqueIdentifier]=@UniqueIdentifier"; }
         }
 
         public static string SelectAllQuery

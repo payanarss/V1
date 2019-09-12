@@ -20,16 +20,18 @@ namespace CMD.Payan.Hrms.DatabaseLayer
         {
             base.MapFromDatabase(reader);
             CallLetterEntityDetail.UniqueIdentifier = ConvertType.ToInt64(reader["UniqueIdentifier"].ToString());
-            CallLetterEntityDetail.CallLetterDate = ConvertType.ToDateTime(reader["CallLetterDate"].ToString());
-            CallLetterEntityDetail.CallLetterNumber = ConvertType.ToInt64(reader["CallLetterNumber"].ToString());
-            CallLetterEntityDetail.CandidateAddress = ConvertType.ToString(reader["CandidateAddress"].ToString());
-            CallLetterEntityDetail.CandidateName = ConvertType.ToString(reader["CandidateName"].ToString());
-            CallLetterEntityDetail.CompanyCode = ConvertType.ToString(reader["CompanyCode"].ToString());
-            CallLetterEntityDetail.ContactNumber = ConvertType.ToString(reader["ContactNumber"].ToString());
-            CallLetterEntityDetail.InterviewDate = ConvertType.ToDateTime(reader["InterviewDate"].ToString());
-            CallLetterEntityDetail.InterviewTime = ConvertType.ToString(reader["InterviewTime"].ToString());
-            CallLetterEntityDetail.Position = ConvertType.ToString(reader["Position"].ToString());
-            CallLetterEntityDetail.Regards = ConvertType.ToString(reader["Regards"].ToString());
+	                CallLetterEntityDetail.CallLetterDate = ConvertType.ToSystem.DateTime(reader["CallLetterDate"].ToString());
+            CallLetterEntityDetail.CallLetterNumber = ConvertType.ToSystem.Int64(reader["CallLetterNumber"].ToString());
+            CallLetterEntityDetail.CandidateAddress = ConvertType.ToSystem.String(reader["CandidateAddress"].ToString());
+            CallLetterEntityDetail.CandidateName = ConvertType.ToSystem.String(reader["CandidateName"].ToString());
+            CallLetterEntityDetail.CompanyCode = ConvertType.ToTableSequanceNumber.NextSequenceNumber(reader["CompanyCode"].ToString());
+            CallLetterEntityDetail.ContactNumber = ConvertType.ToSystem.String(reader["ContactNumber"].ToString());
+            CallLetterEntityDetail.InterviewDate = ConvertType.ToSystem.String(reader["InterviewDate"].ToString());
+            CallLetterEntityDetail.InterviewTime = ConvertType.ToSystem.String(reader["InterviewTime"].ToString());
+            CallLetterEntityDetail.DesignationCode = ConvertType.ToSystem.String(reader["DesignationCode"].ToString());
+            CallLetterEntityDetail.Regards = ConvertType.ToSystem.String(reader["Regards"].ToString());
+            CallLetterEntityDetail.UniqueIdentifier = ConvertType.ToSystem.String(reader["UniqueIdentifier"].ToString());
+            CallLetterEntityDetail.RowID = ConvertType.ToSystem.String(reader["RowID"].ToString());
 
         }
 

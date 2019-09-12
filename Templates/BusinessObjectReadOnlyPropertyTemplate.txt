@@ -1,0 +1,6 @@
+
+	public $PropertyType$ _$LocalPropertyName$
+        public $PropertyType$ $PropertyName$
+        {
+            get { return _$LocalPropertyName$; }
+        }

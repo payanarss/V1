@@ -1,0 +1,1 @@
+            result &= $InstanceType$CollectionDetail.Validate();

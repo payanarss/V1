@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Threading;
 using BaseComapny = CMD.Payan.Base.Company;
+using CMD.Payan.Hrms.Views;
 
 namespace Payanar.SSNamespace
 {
@@ -18,7 +19,8 @@ namespace Payanar.SSNamespace
             Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CMD.Payan.Hrms.Views.CmdPayanMainView());
+            PayanarApplication.OnStart();
+            Application.Run(new CmdPayanMainView());
         }
 
         public static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)

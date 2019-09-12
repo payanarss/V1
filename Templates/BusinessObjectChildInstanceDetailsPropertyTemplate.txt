@@ -1,0 +1,15 @@
+
+        private $InstanceType$Collection _$PrivateInstanceType$CollectionDetail = null;
+        public $InstanceType$Collection $InstanceType$CollectionDetail
+        {
+            get
+            {
+                if (_$PrivateInstanceType$CollectionDetail == null)
+                {
+                    _$PrivateInstanceType$CollectionDetail = $InstanceType$CollectionFactory.Factory.LoadedInstance() as $InstanceType$Collection;
+                    _$PrivateInstanceType$CollectionDetail = this._$PrivateInstanceType$CollectionDetail.WhereChildDetails(this) as $InstanceType$Collection;                
+	   }
+
+                return _$PrivateInstanceType$CollectionDetail;
+            }
+        }

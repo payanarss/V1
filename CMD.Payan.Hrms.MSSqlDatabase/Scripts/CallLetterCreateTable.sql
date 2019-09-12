@@ -13,7 +13,7 @@ GO
 
 CREATE TABLE [dbo].[CallLetter](
 	[UniqueIdentifier] [bigint] IDENTITY(1,1) NOT NULL,
-		[CallLetterDate] [] ,	[CallLetterNumber] [] ,	[CandidateAddress] [] ,	[CandidateName] [] ,	[CompanyCode] [] ,	[ContactNumber] [] ,	[InterviewDate] [] ,	[InterviewTime] [] ,	[Position] [] ,	[Regards] [] ,
+		[CallLetterDate] [] ,	[CallLetterNumber] [] ,	[CandidateAddress] [] ,	[CandidateName] [] ,	[CompanyCode] [] ,	[ContactNumber] [] ,	[InterviewDate] [] ,	[InterviewTime] [] ,	[DesignationCode] [] ,	[Regards] [] ,	[UniqueIdentifier] [] ,	[RowID] [] ,
  CONSTRAINT [PK_CallLetter] PRIMARY KEY CLUSTERED 
 (
 	[UniqueIdentifier] ASC

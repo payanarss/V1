@@ -2,12 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Payanar.SS.Net.Libraries.BusinessEntity.Interfaces;
-using Payanar.SS.Net.Libraries.Common;
+using PayanarCommon = Payanar.SS.Net.Libraries.Common;
+using BusinessEntityInterfaces = $ProjectNamespace$.Net.Base.BusinessEntity.Interfaces;
+using BaseCommon = $ProjectNamespace$.Net.Base.Common;
 
-namespace $ProjectNamespace$.$ModuleName$.BusinessEntities
+namespace $ProjectNamespace$.Net.$ModuleName$.BusinessEntities
 {
-    public class $ClassName$Entity : BusinessEntity, IBusinessEntity
+    public class $ClassName$Entity : BusinessEntityInterfaces.BusinessEntity
     {
         #region Private Variables
 
@@ -22,7 +23,7 @@ namespace $ProjectNamespace$.$ModuleName$.BusinessEntities
 	    InitializeFields();
         }
 
-        public $ClassName$Entity(IParent parent)
+        public $ClassName$Entity(PayanarCommon.IParent parent)
             : base(parent)
         {
 	    InitializeFields();
@@ -31,14 +32,17 @@ namespace $ProjectNamespace$.$ModuleName$.BusinessEntities
         #endregion Constructors
 
         #region Properties
+
 	$PropertiesDeclarationCode$
+
         #endregion Properties
 	
 	#region Methods
 
 	private void InitializeFields()
 	{
-		$FieldsInitializationCode$		}
+		$FieldsInitializationCode$		
+        }
 
 	#endregion Methods
     }

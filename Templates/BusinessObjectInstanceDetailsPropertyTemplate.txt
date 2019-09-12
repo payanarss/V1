@@ -1,0 +1,36 @@
+
+        private $InstanceType$Collection _$PrivateInstanceType$CollectionDetail = null;
+        public $InstanceType$Collection $InstanceType$CollectionDetail
+        {
+            get
+            {
+                if (_$PrivateInstanceType$CollectionDetail == null)
+                {
+                    _$PrivateInstanceType$CollectionDetail = $InstanceType$CollectionFactory.Factory.LoadedInstance() as $InstanceType$Collection;
+                }
+
+                return _$PrivateInstanceType$CollectionDetail;
+            }
+        }
+
+        private $InstanceType$ _$PrivateInstanceType$Detail = null;
+        public $InstanceType$ $InstanceType$Detail
+        {
+            get
+            {
+                if (_$PrivateInstanceType$Detail == null)
+                {
+                    _$PrivateInstanceType$Detail = $InstanceType$CollectionDetail.GetBusinessObjectDetailOrDefault($InstanceType$ID) as $InstanceType$;
+                }
+
+                return _$PrivateInstanceType$Detail;
+            }
+            set
+            {
+                if (_$PrivateInstanceType$Detail != value)
+                {
+                    _$PrivateInstanceType$Detail = value;
+                    $InstanceType$ID = _$PrivateInstanceType$Detail != null ? _$PrivateInstanceType$Detail.UniqueIdentifier : 0;
+                }
+            }
+        }

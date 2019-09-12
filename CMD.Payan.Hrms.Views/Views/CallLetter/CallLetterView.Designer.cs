@@ -29,81 +29,46 @@ namespace CMD.Payan.Hrms.Views
         /// </summary>
         private void InitializeComponent()
         {
-            this.callLetterNumberTextBox1 = new CMD.Payan.Hrms.Views.CallLetterNumberTextBox();
-            this.callLetterDateDateTimePicker1 = new CMD.Payan.Hrms.Views.CallLetterDateDateTimePicker();
-            this.TaskBarPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BindingSource)).BeginInit();
-            this.BodyPanel.SuspendLayout();
             this.ToolBarPanel.SuspendLayout();
-            this.closePanel.SuspendLayout();
             this.BasePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // TaskBarPanel
             // 
-            this.TaskBarPanel.Size = new System.Drawing.Size(605, 22);
+            this.TaskBarPanel.Size = new System.Drawing.Size(605, 24);
             // 
             // BodyPanel
             // 
-            this.BodyPanel.Controls.Add(this.callLetterDateDateTimePicker1);
-            this.BodyPanel.Controls.Add(this.callLetterNumberTextBox1);
-            this.BodyPanel.Location = new System.Drawing.Point(0, 44);
-            this.BodyPanel.Size = new System.Drawing.Size(605, 293);
+            this.BodyPanel.Location = new System.Drawing.Point(0, 48);
+            this.BodyPanel.Size = new System.Drawing.Size(605, 317);
             // 
             // ToolBarPanel
             // 
-            this.ToolBarPanel.Size = new System.Drawing.Size(605, 22);
+            this.ToolBarPanel.Size = new System.Drawing.Size(605, 24);
             // 
             // AdditionalMenuButtonsPanel
             // 
-            this.AdditionalMenuButtonsPanel.Size = new System.Drawing.Size(427, 18);
-            // 
-            // closePanel
-            // 
-            this.closePanel.Location = new System.Drawing.Point(580, 2);
+            this.AdditionalMenuButtonsPanel.Size = new System.Drawing.Size(426, 20);
             // 
             // BasePanel
             // 
-            this.BasePanel.Size = new System.Drawing.Size(605, 337);
+            this.BasePanel.Size = new System.Drawing.Size(605, 365);
             // 
-            // callLetterNumberTextBox1
+            // UOMView
             // 
-            this.callLetterNumberTextBox1.Location = new System.Drawing.Point(55, 23);
-            this.callLetterNumberTextBox1.Name = "callLetterNumberTextBox1";
-            this.callLetterNumberTextBox1.Size = new System.Drawing.Size(100, 18);
-            this.callLetterNumberTextBox1.TabIndex = 0;
-            // 
-            // callLetterDateDateTimePicker1
-            // 
-            this.callLetterDateDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.callLetterDateDateTimePicker1.Location = new System.Drawing.Point(362, 21);
-            this.callLetterDateDateTimePicker1.Name = "callLetterDateDateTimePicker1";
-            this.callLetterDateDateTimePicker1.Size = new System.Drawing.Size(200, 18);
-            this.callLetterDateDateTimePicker1.TabIndex = 1;
-            // 
-            // CallLetterView
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "CallLetterView";
             this.ShowTitle = true;
-            this.Size = new System.Drawing.Size(607, 339);
-            this.TaskBarPanel.ResumeLayout(false);
-            this.TaskBarPanel.PerformLayout();
+            this.Size = new System.Drawing.Size(607, 367);
             ((System.ComponentModel.ISupportInitialize)(this.BindingSource)).EndInit();
-            this.BodyPanel.ResumeLayout(false);
-            this.BodyPanel.PerformLayout();
             this.ToolBarPanel.ResumeLayout(false);
-            this.closePanel.ResumeLayout(false);
-            this.closePanel.PerformLayout();
             this.BasePanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private CallLetterDateDateTimePicker callLetterDateDateTimePicker1;
-        private CallLetterNumberTextBox callLetterNumberTextBox1;
     }
 }

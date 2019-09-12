@@ -6,6 +6,4 @@ C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.MSSqlDa
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\CMD.Payan.Hrms.MSSqlDatabase.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.MSSqlDatabase\obj\Debug\CMD.Payan.Hrms.MSSqlDatabase.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.MSSqlDatabase\obj\Debug\CMD.Payan.Hrms.MSSqlDatabase.pdb
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.MSSqlDatabase\obj\Debug\CMD.Payan.Hrms.MSSqlDatabase.csprojAssemblyReference.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.MSSqlDatabase\obj\Debug\CMD.Payan.Hrms.MSSqlDatabase.csproj.CoreCompileInputs.cache
-C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.MSSqlDatabase\obj\Debug\CMD.Payan.Hrms.MSSqlDatabase.csproj.CopyComplete
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.MSSqlDatabase\obj\Debug\CMD.Payan.Hrms.MSSqlDatabase.csprojResolveAssemblyReference.cache

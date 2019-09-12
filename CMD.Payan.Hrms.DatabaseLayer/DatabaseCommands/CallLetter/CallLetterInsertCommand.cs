@@ -29,8 +29,10 @@ namespace CMD.Payan.Hrms.DatabaseLayer
             AddParameters("@ContactNumber", GetDbType("System.String"), CallLetterEntityDetail.ContactNumber);
             AddParameters("@InterviewDate", GetDbType("System.String"), CallLetterEntityDetail.InterviewDate);
             AddParameters("@InterviewTime", GetDbType("System.String"), CallLetterEntityDetail.InterviewTime);
-            AddParameters("@Position", GetDbType("System.String"), CallLetterEntityDetail.Position);
+            AddParameters("@DesignationCode", GetDbType("System.String"), CallLetterEntityDetail.DesignationCode);
             AddParameters("@Regards", GetDbType("System.String"), CallLetterEntityDetail.Regards);
+            AddParameters("@UniqueIdentifier", GetDbType("System.String"), CallLetterEntityDetail.UniqueIdentifier);
+            AddParameters("@RowID", GetDbType("System.String"), CallLetterEntityDetail.RowID);
 
             base.MapToDatabase();
         }

@@ -91,7 +91,67 @@
 
 
 <Compile Include="Factories\TableDetailEntityFactory.cs" />
+
+
+<Compile Include="Entities\TableInformationEntity.cs" />
+
+
+<Compile Include="Factories\TableInformationEntityFactory.cs" />
+
+
+<Compile Include="Entities\PayanarApplicationEntity.cs" />
+
+
+<Compile Include="Factories\PayanarApplicationEntityFactory.cs" />
+
+
+<Compile Include="Entities\InterviewFactorEntity.cs" />
+
+
+<Compile Include="Factories\InterviewFactorEntityFactory.cs" />
+
+
+<Compile Include="Entities\AppointmentOrderFactorEntity.cs" />
+
+
+<Compile Include="Factories\AppointmentOrderFactorEntityFactory.cs" />
+
+
+<Compile Include="Entities\AssessmentFactorEntity.cs" />
+
+
+<Compile Include="Factories\AssessmentFactorEntityFactory.cs" />
+
+
+<Compile Include="Entities\ExitInterviewFactorEntity.cs" />
+
+
+<Compile Include="Factories\ExitInterviewFactorEntityFactory.cs" />
 <!--IncludeCSFile-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

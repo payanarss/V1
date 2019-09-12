@@ -9,3 +9,4 @@ C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Service
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\Dependencies\Payanar.SS.Net.Services.pdb
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Services\obj\Debug\Payanar.SS.Net.Services.dll
 C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Services\obj\Debug\Payanar.SS.Net.Services.pdb
+C:\Bhu\CS\Payanarss\CMD.PAY\Source\CMD.Payan\CMD.Payan.Hrms.Services\obj\Debug\CMD.Payan.Hrms.Services.csprojResolveAssemblyReference.cache

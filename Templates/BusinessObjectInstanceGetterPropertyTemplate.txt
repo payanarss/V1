@@ -1,0 +1,5 @@
+
+        public $PropertyType$ $PropertyName$
+        {
+            get { return $InstanceType$Detail!=null? $InstanceType$Detail.$InstancePropertyName$: default($PropertyType$); }
+        }

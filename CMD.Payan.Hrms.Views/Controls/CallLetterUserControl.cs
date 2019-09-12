@@ -8,22 +8,9 @@ using CMD.Payan.Hrms.BusinessLayers;
 
 namespace CMD.Payan.Hrms.Views
 {
-
+	
     public class CallLetterDateDateTimePicker : CMD.Payan.Base.Views.Controls.DateTimePicker
     {
-        public CallLetterDateDateTimePicker() { }
-
-        public CallLetterDateDateTimePicker(IPresentationEntity presentationEntity)
-        {
-            PresentationEntityInstance = presentationEntity;
-        }
-
-        private IPresentationEntity PresentationEntityInstance { get; set; }
-
-        public void ApplyBindings()
-        {
-            this.DataBindings.Add("Text", PresentationEntityInstance, "BankHeading");
-        }
     }
 
     public class CallLetterNumberTextBox : CMD.Payan.Base.Views.Controls.TextBox
@@ -54,11 +41,20 @@ namespace CMD.Payan.Hrms.Views
     {
     }
 
-    public class PositionTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class DesignationCodeTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
     public class RegardsTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
+
+    public class UniqueIdentifierTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    {
+    }
+
+    public class RowIDTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    {
+    }
+
 }

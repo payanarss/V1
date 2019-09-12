@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Payanar.SS.Net.Libraries.BusinessLayer;
-using Payanar.SS.Net.Libraries.Common;
-using CMD.Payan.Hrms.BusinessEntities;
-using CMD.Payan.Hrms.DatabaseLayer;
+using PayanarCommon = Payanar.SS.Net.Libraries.Common;
+using BaseBusinessLayer = CMD.Payan.Net.Base.BusinessLayer;
+using BaseCommon = CMD.Payan.Net.Base.Common;
+using CMD.Payan.Net.Hrms.BusinessEntities;
+using CMD.Payan.Net.Hrms.DatabaseLayer;
 
-namespace CMD.Payan.Hrms.BusinessLayers
+namespace CMD.Payan.Net.Hrms.BusinessLayers
 {
-    public class CallLetter : BusinessObject, IParent
+    public class CallLetter : BaseBusinessLayer.BusinessObject, BaseCommon.IParent
     {
         #region Private Variables
 
@@ -19,119 +20,322 @@ namespace CMD.Payan.Hrms.BusinessLayers
 
         public CallLetter()
             : base(CallLetterEntityFactory.Factory, CallLetterDatabaseAgentFactory.Factory)
-        {
-            InitializeProtected();
-        }
+        { }
 
-        public CallLetter(IParent parent)
+ 	public CallLetter(PayanarCommon.IParent parent)
             : base(CallLetterEntityFactory.Factory, CallLetterDatabaseAgentFactory.Factory, parent)
-        {
-            InitializeProtected();
-        }
+        { }
 
         #endregion Constructors
 
         #region Properties
 
-        private Company _companyInstance = null;
-        public Company CompanyInstance
+        public CallLetterEntity CallLetterEntityDetail
+        {
+            get { return BusinessEntityObject as CallLetterEntity; }
+        }
+
+	
+        private TableInformationCollection _tableInformationCollectionDetail = null;
+        public TableInformationCollection TableInformationCollectionDetail
         {
             get
             {
-                if (_companyInstance == null)
-                    _companyInstance = CMD.Payan.Hrms.BusinessLayers.CompanyFactory.Factory.Instance() as Company;
+                if (_tableInformationCollectionDetail == null)
+                {
+                    _tableInformationCollectionDetail = TableInformationCollectionFactory.Factory.LoadedInstance() as TableInformationCollection;
+                }
 
-                return _companyInstance;
+                return _tableInformationCollectionDetail;
             }
         }
 
-        private Employee _employeeInstance = null;
-        public Employee EmployeeInstance
+        private TableInformation _tableInformationDetail = null;
+        public TableInformation TableInformationDetail
         {
             get
             {
-                if (_employeeInstance == null)
-                    _employeeInstance = EmployeeCollectionFactry.Instance.SingletonInstance.GetEmployeeBy(Regards);
+                if (_tableInformationDetail == null)
+                {
+                    _tableInformationDetail = TableInformationCollectionDetail.GetBusinessObjectDetailOrDefault(TableInformationID) as TableInformation;
+                }
 
-                return _employeeInstance;
+                return _tableInformationDetail;
             }
             set
             {
-                _employeeInstance = value;
-                Regards = _employeeInstance.Name;
+                if (_tableInformationDetail != value)
+                {
+                    _tableInformationDetail = value;
+                    TableInformationID = _tableInformationDetail != null ? _tableInformationDetail.UniqueIdentifier : 0;
+                }
+            }
+        }
+        private CompanyHeaderCollection _companyHeaderCollectionDetail = null;
+        public CompanyHeaderCollection CompanyHeaderCollectionDetail
+        {
+            get
+            {
+                if (_companyHeaderCollectionDetail == null)
+                {
+                    _companyHeaderCollectionDetail = CompanyHeaderCollectionFactory.Factory.LoadedInstance() as CompanyHeaderCollection;
+                }
+
+                return _companyHeaderCollectionDetail;
             }
         }
 
+        private CompanyHeader _companyHeaderDetail = null;
+        public CompanyHeader CompanyHeaderDetail
+        {
+            get
+            {
+                if (_companyHeaderDetail == null)
+                {
+                    _companyHeaderDetail = CompanyHeaderCollectionDetail.GetBusinessObjectDetailOrDefault(CompanyHeaderID) as CompanyHeader;
+                }
+
+                return _companyHeaderDetail;
+            }
+            set
+            {
+                if (_companyHeaderDetail != value)
+                {
+                    _companyHeaderDetail = value;
+                    CompanyHeaderID = _companyHeaderDetail != null ? _companyHeaderDetail.UniqueIdentifier : 0;
+                }
+            }
+        }
+        private DesignationCollection _designationCollectionDetail = null;
+        public DesignationCollection DesignationCollectionDetail
+        {
+            get
+            {
+                if (_designationCollectionDetail == null)
+                {
+                    _designationCollectionDetail = DesignationCollectionFactory.Factory.LoadedInstance() as DesignationCollection;
+                }
+
+                return _designationCollectionDetail;
+            }
+        }
+
+        private Designation _designationDetail = null;
+        public Designation DesignationDetail
+        {
+            get
+            {
+                if (_designationDetail == null)
+                {
+                    _designationDetail = DesignationCollectionDetail.GetBusinessObjectDetailOrDefault(DesignationID) as Designation;
+                }
+
+                return _designationDetail;
+            }
+            set
+            {
+                if (_designationDetail != value)
+                {
+                    _designationDetail = value;
+                    DesignationID = _designationDetail != null ? _designationDetail.UniqueIdentifier : 0;
+                }
+            }
+        }
+        private EmployeeDetailCollection _employeeDetailCollectionDetail = null;
+        public EmployeeDetailCollection EmployeeDetailCollectionDetail
+        {
+            get
+            {
+                if (_employeeDetailCollectionDetail == null)
+                {
+                    _employeeDetailCollectionDetail = EmployeeDetailCollectionFactory.Factory.LoadedInstance() as EmployeeDetailCollection;
+                }
+
+                return _employeeDetailCollectionDetail;
+            }
+        }
+
+        private EmployeeDetail _employeeDetailDetail = null;
+        public EmployeeDetail EmployeeDetailDetail
+        {
+            get
+            {
+                if (_employeeDetailDetail == null)
+                {
+                    _employeeDetailDetail = EmployeeDetailCollectionDetail.GetBusinessObjectDetailOrDefault(EmployeeDetailID) as EmployeeDetail;
+                }
+
+                return _employeeDetailDetail;
+            }
+            set
+            {
+                if (_employeeDetailDetail != value)
+                {
+                    _employeeDetailDetail = value;
+                    EmployeeDetailID = _employeeDetailDetail != null ? _employeeDetailDetail.UniqueIdentifier : 0;
+                }
+            }
+        }
+
+        $BusinessObjectChildInstanceDetailsProperty$
+
+        
         public System.DateTime CallLetterDate
         {
             get { return CallLetterEntityDetail.CallLetterDate; }
-            set { CallLetterEntityDetail.CallLetterDate = value; }
+            set
+            {
+                if (CallLetterEntityDetail.CallLetterDate != value)
+                {
+                    CallLetterEntityDetail.CallLetterDate = value;
+                }
+            }
         }
 
         public System.Int64 CallLetterNumber
         {
             get { return CallLetterEntityDetail.CallLetterNumber; }
-            set { CallLetterEntityDetail.CallLetterNumber = value; }
+            set
+            {
+                if (CallLetterEntityDetail.CallLetterNumber != value)
+                {
+                    CallLetterEntityDetail.CallLetterNumber = value;
+                }
+            }
         }
 
         public System.String CandidateAddress
         {
             get { return CallLetterEntityDetail.CandidateAddress; }
-            set { CallLetterEntityDetail.CandidateAddress = value; }
+            set
+            {
+                if (CallLetterEntityDetail.CandidateAddress != value)
+                {
+                    CallLetterEntityDetail.CandidateAddress = value;
+                }
+            }
         }
 
         public System.String CandidateName
         {
             get { return CallLetterEntityDetail.CandidateName; }
-            set { CallLetterEntityDetail.CandidateName = value; }
+            set
+            {
+                if (CallLetterEntityDetail.CandidateName != value)
+                {
+                    CallLetterEntityDetail.CandidateName = value;
+                }
+            }
         }
 
         public System.String CompanyCode
         {
             get { return CallLetterEntityDetail.CompanyCode; }
-            set { CallLetterEntityDetail.CompanyCode = value; }
-        }
-
-        public System.String CompanyName
-        {
-            get { return CompanyInstance.CompanyName; }
-            set { CompanyInstance.CompanyName = value; }
+            set
+            {
+                if (CallLetterEntityDetail.CompanyCode != value)
+                {
+                    CallLetterEntityDetail.CompanyCode = value;
+                }
+            }
         }
 
         public System.String ContactNumber
         {
             get { return CallLetterEntityDetail.ContactNumber; }
-            set { CallLetterEntityDetail.ContactNumber = value; }
+            set
+            {
+                if (CallLetterEntityDetail.ContactNumber != value)
+                {
+                    CallLetterEntityDetail.ContactNumber = value;
+                }
+            }
         }
 
-        public System.DateTime InterviewDate
+        public System.String InterviewDate
         {
             get { return CallLetterEntityDetail.InterviewDate; }
-            set { CallLetterEntityDetail.InterviewDate = value; }
+            set
+            {
+                if (CallLetterEntityDetail.InterviewDate != value)
+                {
+                    CallLetterEntityDetail.InterviewDate = value;
+                }
+            }
         }
 
         public System.String InterviewTime
         {
             get { return CallLetterEntityDetail.InterviewTime; }
-            set { CallLetterEntityDetail.InterviewTime = value; }
+            set
+            {
+                if (CallLetterEntityDetail.InterviewTime != value)
+                {
+                    CallLetterEntityDetail.InterviewTime = value;
+                }
+            }
         }
 
-        public System.String Position
+        public System.String DesignationCode
         {
-            get { return CallLetterEntityDetail.Position; }
-            set { CallLetterEntityDetail.Position = value; }
+            get { return CallLetterEntityDetail.DesignationCode; }
+            set
+            {
+                if (CallLetterEntityDetail.DesignationCode != value)
+                {
+                    CallLetterEntityDetail.DesignationCode = value;
+                }
+            }
         }
 
         public System.String Regards
         {
             get { return CallLetterEntityDetail.Regards; }
-            set { CallLetterEntityDetail.Regards = value; }
+            set
+            {
+                if (CallLetterEntityDetail.Regards != value)
+                {
+                    CallLetterEntityDetail.Regards = value;
+                }
+            }
         }
 
-        private CallLetterEntity CallLetterEntityDetail
+        public System.String UniqueIdentifier
         {
-            get { return BusinessEntityObject as CallLetterEntity; }
+            get { return CallLetterEntityDetail.UniqueIdentifier; }
+            set
+            {
+                if (CallLetterEntityDetail.UniqueIdentifier != value)
+                {
+                    CallLetterEntityDetail.UniqueIdentifier = value;
+                }
+            }
         }
+
+        public System.String RowID
+        {
+            get { return CallLetterEntityDetail.RowID; }
+            set
+            {
+                if (CallLetterEntityDetail.RowID != value)
+                {
+                    CallLetterEntityDetail.RowID = value;
+                }
+            }
+        }
+
+
+	
+        public System.String CompanyName
+        {
+            get { return CompanyHeaderDetail!=null? CompanyHeaderDetail.CompanyName: default(System.String); }
+        }
+
+        public System.String DesignationName
+        {
+            get { return DesignationDetail!=null? DesignationDetail.DesignationDescription: default(System.String); }
+        }
+
 
         #endregion Properties
 
@@ -152,6 +356,16 @@ namespace CMD.Payan.Hrms.BusinessLayers
 
         #region Protected
 
+        protected override int SaveChildBusinessObject()
+        {
+            int result = 0;
+
+            result = base.SaveChildBusinessObject();
+            $BusinessObjectChildCollectionDetailsSaveLines$
+
+            return result;
+        }
+
         protected override bool ValidateBeforeSave()
         {
             bool isValid = base.ValidateBeforeSave();
@@ -166,9 +380,24 @@ namespace CMD.Payan.Hrms.BusinessLayers
             return isValid;
         }
 
-        protected void InitializeProtected()
+        protected override bool ValidateChildObjectsBeforeSave()
         {
-            CompanyCode = CompanyInstance.CompanyCode;
+            bool result = false;
+
+            result = base.ValidateChildObjectsBeforeSave();
+            $BusinessObjectChildCollectionDetailsValidateLines$
+
+            return result;
+        }
+
+        protected override bool ValidateChildObjectsBeforeDelete()
+        {
+            bool result = false;
+
+            result = base.ValidateChildObjectsBeforeSave();
+            $BusinessObjectChildCollectionDetailsValidateLines$
+
+            return result;
         }
 
         #endregion Protected

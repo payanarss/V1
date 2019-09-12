@@ -38,6 +38,12 @@ namespace CMD.Payan.Hrms.WPF.Views.Views.CallLetter
 
         ////public IPresenter PresenterDetail => throw new NotImplementedException();
 
+        protected override void OnRender(DrawingContext drawingContext)
+        {
+            base.OnRender(drawingContext);
+            CallLetterPresenterInstance.CallLetterPresentationEntityDetail.OnViewReady();
+        }
+
         public IObservable GetObservable()
         {
             throw new NotImplementedException();

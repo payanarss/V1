@@ -1,0 +1,5 @@
+
+        public $PropertyType$ $PropertyName$
+        {
+            get { return $ClassName$EntityDetail.$FieldName$; }
+        }

@@ -21,14 +21,14 @@ namespace CMD.Payan.Hrms.BusinessLayers
             : base(TableDetailEntityFactory.Factory, TableDetailDatabaseAgentFactory.Factory)
         { }
 
- 	public TableDetail(IParent parent)
+        public TableDetail(IParent parent)
             : base(TableDetailEntityFactory.Factory, TableDetailDatabaseAgentFactory.Factory, parent)
         { }
 
         #endregion Constructors
 
         #region Properties
-	
+
         public System.String TableName
         {
             get { return TableDetailEntityDetail.TableName; }
@@ -43,8 +43,7 @@ namespace CMD.Payan.Hrms.BusinessLayers
 
         public System.Int64 NextSequenceNumber
         {
-            get { return TableDetailEntityDetail.NextSequenceNumber; }
-            set { TableDetailEntityDetail.NextSequenceNumber = value; }
+            get { return TableDetailEntityDetail.SequenceNumber + 1; }
         }
 
         public System.DateTime CurrentDate
@@ -93,6 +92,6 @@ namespace CMD.Payan.Hrms.BusinessLayers
 
         #endregion Protected
 
-	#endregion Methods
+        #endregion Methods
     }
 }

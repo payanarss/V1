@@ -85,7 +85,37 @@
 
 
 <Compile Include="Queries\TableDetailQuery.cs" />
+
+
+<Compile Include="Queries\TableInformationQuery.cs" />
+
+
+<Compile Include="Queries\PayanarApplicationQuery.cs" />
+
+
+<Compile Include="Queries\InterviewFactorQuery.cs" />
+
+
+<Compile Include="Queries\AppointmentOrderFactorQuery.cs" />
+
+
+<Compile Include="Queries\AssessmentFactorQuery.cs" />
+
+
+<Compile Include="Queries\ExitInterviewFactorQuery.cs" />
 <!--IncludeCSFile-->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

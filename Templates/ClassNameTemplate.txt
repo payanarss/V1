@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Payanar.SS.Net.Libraries.BusinessLayer;
-using Payanar.SS.Net.Libraries.Common;
-using $ProjectNamespace$.$ModuleName$.BusinessEntities;
-using $ProjectNamespace$.$ModuleName$.DatabaseLayer;
+using PayanarCommon = Payanar.SS.Net.Libraries.Common;
+using BaseBusinessLayer = $ProjectNamespace$.Net.Base.BusinessLayer;
+using BaseCommon = $ProjectNamespace$.Net.Base.Common;
+using $ProjectNamespace$.Net.$ModuleName$.BusinessEntities;
+using $ProjectNamespace$.Net.$ModuleName$.DatabaseLayer;
 
-namespace $ProjectNamespace$.$ModuleName$.BusinessLayers
+namespace $ProjectNamespace$.Net.$ModuleName$.BusinessLayers
 {
-    public class $ClassName$ : BusinessObject, IParent
+    public class $ClassName$ : BaseBusinessLayer.BusinessObject, BaseCommon.IParent
     {
         #region Private Variables
 
@@ -21,18 +22,26 @@ namespace $ProjectNamespace$.$ModuleName$.BusinessLayers
             : base($ClassName$EntityFactory.Factory, $ClassName$DatabaseAgentFactory.Factory)
         { }
 
- 	public $ClassName$(IParent parent)
+ 	public $ClassName$(PayanarCommon.IParent parent)
             : base($ClassName$EntityFactory.Factory, $ClassName$DatabaseAgentFactory.Factory, parent)
         { }
 
         #endregion Constructors
 
         #region Properties
-	$PropertiesDeclarationCode$
-        private $ClassName$Entity $ClassName$EntityDetail
+
+        public $ClassName$Entity $ClassName$EntityDetail
         {
             get { return BusinessEntityObject as $ClassName$Entity; }
         }
+
+	$BusinessObjectInstanceDetailsPropertyTemplate$
+
+        $BusinessObjectChildInstanceDetailsProperty$
+
+        $PersistentPropertiesDeclarationCode$
+
+	$NonPersistentPropertiesDeclarationCode$
 
         #endregion Properties
 
@@ -53,6 +62,16 @@ namespace $ProjectNamespace$.$ModuleName$.BusinessLayers
 
         #region Protected
 
+        protected override int SaveChildBusinessObject()
+        {
+            int result = 0;
+
+            result = base.SaveChildBusinessObject();
+            $BusinessObjectChildCollectionDetailsSaveLines$
+
+            return result;
+        }
+
         protected override bool ValidateBeforeSave()
         {
             bool isValid = base.ValidateBeforeSave();
@@ -67,8 +86,28 @@ namespace $ProjectNamespace$.$ModuleName$.BusinessLayers
             return isValid;
         }
 
+        protected override bool ValidateChildObjectsBeforeSave()
+        {
+            bool result = false;
+
+            result = base.ValidateChildObjectsBeforeSave();
+            $BusinessObjectChildCollectionDetailsValidateLines$
+
+            return result;
+        }
+
+        protected override bool ValidateChildObjectsBeforeDelete()
+        {
+            bool result = false;
+
+            result = base.ValidateChildObjectsBeforeSave();
+            $BusinessObjectChildCollectionDetailsValidateLines$
+
+            return result;
+        }
+
         #endregion Protected
 
-	#endregion Methods
+        #endregion Methods
     }
 }

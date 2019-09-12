@@ -2,5 +2,11 @@
         public $PropertyType$ $PropertyName$
         {
             get { return $ClassName$EntityDetail.$FieldName$; }
-            set { $ClassName$EntityDetail.$FieldName$ = value; }
+            set
+            {
+                if ($ClassName$EntityDetail.$FieldName$ != value)
+                {
+                    $ClassName$EntityDetail.$FieldName$ = value;
+                }
+            }
         }

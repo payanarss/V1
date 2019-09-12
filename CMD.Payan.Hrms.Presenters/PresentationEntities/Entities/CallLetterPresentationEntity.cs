@@ -19,10 +19,6 @@ namespace CMD.Payan.Hrms.Presenters
 
         #region Constructors
 
-        public CallLetterPresentationEntity()
-        {
-        }
-
         public CallLetterPresentationEntity(IPresenter presenter)
             : base(presenter, CallLetterFactory.Factory)
         {
@@ -46,73 +42,7 @@ namespace CMD.Payan.Hrms.Presenters
         #endregion Constructors
 
         #region Properties
-	
-        public System.DateTime CallLetterDate
-        {
-            get { return CallLetterDetail.CallLetterDate; }
-            set { CallLetterDetail.CallLetterDate = value; }
-        }
-
-        public System.Int64 CallLetterNumber
-        {
-            get {  return CallLetterDetail.CallLetterNumber; }
-            set { CallLetterDetail.CallLetterNumber = value; }
-        }
-
-        public System.String CandidateAddress
-        {
-            get { return CallLetterDetail.CandidateAddress; }
-            set { CallLetterDetail.CandidateAddress = value; }
-        }
-
-        public System.String CandidateName
-        {
-            get { return CallLetterDetail.CandidateName; }
-            set { CallLetterDetail.CandidateName = value; }
-        }
-
-        public System.String CompanyCode
-        {
-            get { return CallLetterDetail.CompanyCode; }
-            set { CallLetterDetail.CompanyCode = value; }
-        }
-
-        public System.String CompanyName
-        {
-            get { return CallLetterDetail.CompanyCode; }
-            set { CallLetterDetail.CompanyName = value; }
-        }
-
-        public System.String ContactNumber
-        {
-            get { return CallLetterDetail.ContactNumber; }
-            set { CallLetterDetail.ContactNumber = value; }
-        }
-
-        public System.DateTime InterviewDate
-        {
-            get { return CallLetterDetail.InterviewDate; }
-            set { CallLetterDetail.InterviewDate = value; }
-        }
-
-        public System.String InterviewTime
-        {
-            get { return CallLetterDetail.InterviewTime; }
-            set { CallLetterDetail.InterviewTime = value; }
-        }
-
-        public System.String Position
-        {
-            get { return CallLetterDetail.Position; }
-            set { CallLetterDetail.Position = value; }
-        }
-
-        public System.String Regards
-        {
-            get { return CallLetterDetail.Regards; }
-            set { CallLetterDetail.Regards = value; }
-        }
-
+	$PropertiesDeclarationCode$
         public CallLetter CallLetterDetail
         {
             get { return BusinessObjectDetail as CallLetter; }

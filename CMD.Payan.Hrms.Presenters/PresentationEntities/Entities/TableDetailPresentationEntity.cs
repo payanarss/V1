@@ -42,7 +42,7 @@ namespace CMD.Payan.Hrms.Presenters
         #endregion Constructors
 
         #region Properties
-	
+
         public System.String TableName
         {
             get { return TableDetailDetail.TableName; }
@@ -58,7 +58,6 @@ namespace CMD.Payan.Hrms.Presenters
         public System.Int64 NextSequenceNumber
         {
             get { return TableDetailDetail.NextSequenceNumber; }
-            set { TableDetailDetail.NextSequenceNumber = value; }
         }
 
         public System.DateTime CurrentDate

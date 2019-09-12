@@ -25,9 +25,9 @@ namespace CMD.Payan.Hrms.Views
     {
     }
 
-    public class CompanyNameTextBox : CMD.Payan.Base.Views.Controls.TextBox
-    {
-    }
+    ////public class CompanyNameTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    ////{
+    ////}
 
     public class CompanyName1TextBox : CMD.Payan.Base.Views.Controls.TextBox
     {

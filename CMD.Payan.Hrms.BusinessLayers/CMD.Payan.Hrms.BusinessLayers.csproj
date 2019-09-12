@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLayers\AccessDetails.cs" />
+    <Compile Include="BusinessLayers\Designtion.cs" />
     <Compile Include="BusinessLayers\Employee.cs" />
     <Compile Include="Collections\AccessDetailsCollection.cs" />
     <Compile Include="Factories\AccessDetailsFactory.cs" />
@@ -108,43 +109,83 @@
     <Compile Include="Collections\InterviewFormDetailsCollection.cs" />
     <Compile Include="Factories\InterviewFormDetailsFactory.cs" />
     <Compile Include="Factories\InterviewFormDetailsCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\Company.cs" />
+    <Compile Include="Collections\CompanyCollection.cs" />
+    <Compile Include="Factories\CompanyFactory.cs" />
+    <Compile Include="Factories\CompanyCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\EmployeeDetail.cs" />
+    <Compile Include="Collections\EmployeeDetailCollection.cs" />
+    <Compile Include="Factories\EmployeeDetailFactory.cs" />
+    <Compile Include="Factories\EmployeeDetailCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\TableDetail.cs" />
+    <Compile Include="Collections\TableDetailCollection.cs" />
+    <Compile Include="Factories\TableDetailFactory.cs" />
+    <Compile Include="Factories\TableDetailCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\TableInformation.cs" />
+    <Compile Include="Collections\TableInformationCollection.cs" />
+    <Compile Include="Factories\TableInformationFactory.cs" />
+    <Compile Include="Factories\TableInformationCollectionFactory.cs" />
+    <Compile Include="BusinessLayers\PayanarApplication.cs" />
+    <Compile Include="Collections\PayanarApplicationCollection.cs" />
+    <Compile Include="Factories\PayanarApplicationFactory.cs" />
+    <Compile Include="Factories\PayanarApplicationCollectionFactory.cs" />
     
 
-<Compile Include="BusinessLayers\Company.cs" />
+<Compile Include="BusinessLayers\InterviewFactor.cs" />
 
 
-<Compile Include="Collections\CompanyCollection.cs" />
+<Compile Include="Collections\InterviewFactorCollection.cs" />
 
 
-<Compile Include="Factories\CompanyFactory.cs" />
+<Compile Include="Factories\InterviewFactorFactory.cs" />
 
 
-<Compile Include="Factories\CompanyCollectionFactory.cs" />
+<Compile Include="Factories\InterviewFactorCollectionFactory.cs" />
 
 
-<Compile Include="BusinessLayers\EmployeeDetail.cs" />
+<Compile Include="BusinessLayers\AppointmentOrderFactor.cs" />
 
 
-<Compile Include="Collections\EmployeeDetailCollection.cs" />
+<Compile Include="Collections\AppointmentOrderFactorCollection.cs" />
 
 
-<Compile Include="Factories\EmployeeDetailFactory.cs" />
+<Compile Include="Factories\AppointmentOrderFactorFactory.cs" />
 
 
-<Compile Include="Factories\EmployeeDetailCollectionFactory.cs" />
+<Compile Include="Factories\AppointmentOrderFactorCollectionFactory.cs" />
 
 
-<Compile Include="BusinessLayers\TableDetail.cs" />
+<Compile Include="BusinessLayers\AssessmentFactor.cs" />
 
 
-<Compile Include="Collections\TableDetailCollection.cs" />
+<Compile Include="Collections\AssessmentFactorCollection.cs" />
 
 
-<Compile Include="Factories\TableDetailFactory.cs" />
+<Compile Include="Factories\AssessmentFactorFactory.cs" />
 
 
-<Compile Include="Factories\TableDetailCollectionFactory.cs" />
+<Compile Include="Factories\AssessmentFactorCollectionFactory.cs" />
+
+
+<Compile Include="BusinessLayers\ExitInterviewFactor.cs" />
+
+
+<Compile Include="Collections\ExitInterviewFactorCollection.cs" />
+
+
+<Compile Include="Factories\ExitInterviewFactorFactory.cs" />
+
+
+<Compile Include="Factories\ExitInterviewFactorCollectionFactory.cs" />
 <!--IncludeCSFile-->
+
+
+
+
+
+
+
+
 
 
 
