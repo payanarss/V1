@@ -9,51 +9,43 @@ using CMD.Payan.Hrms.BusinessLayers;
 namespace CMD.Payan.Hrms.Views
 {
 	
-    public class CallLetterDateDateTimePicker : CMD.Payan.Base.Views.Controls.DateTimePicker
+    public class CallDateDateTimePicker : CMD.Payan.Base.Views.Controls.DateTimePicker
     {
     }
 
-    public class CallLetterNumberTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class CallNoTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
-    public class CandidateAddressTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class CandAddTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
-    public class CandidateNameTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class CandToTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
-    public class CompanyCodeTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class CompCodeTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
-    public class ContactNumberTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class ContNoTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
-    public class InterviewDateTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class IntDateTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
-    public class InterviewTimeTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class IntTimeTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
-    public class DesignationCodeTextBox : CMD.Payan.Base.Views.Controls.TextBox
+    public class PosTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 
     public class RegardsTextBox : CMD.Payan.Base.Views.Controls.TextBox
-    {
-    }
-
-    public class UniqueIdentifierTextBox : CMD.Payan.Base.Views.Controls.TextBox
-    {
-    }
-
-    public class RowIDTextBox : CMD.Payan.Base.Views.Controls.TextBox
     {
     }
 

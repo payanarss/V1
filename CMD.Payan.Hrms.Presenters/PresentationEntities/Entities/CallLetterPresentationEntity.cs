@@ -42,7 +42,67 @@ namespace CMD.Payan.Hrms.Presenters
         #endregion Constructors
 
         #region Properties
-	$PropertiesDeclarationCode$
+	
+        public System.DateTime CallDate
+        {
+            get { return CallLetterDetail.CallDate; }
+            set { CallLetterDetail.CallDate = value; }
+        }
+
+        public System.Int64 CallNo
+        {
+            get { return CallLetterDetail.CallNo; }
+            set { CallLetterDetail.CallNo = value; }
+        }
+
+        public System.String CandAdd
+        {
+            get { return CallLetterDetail.CandAdd; }
+            set { CallLetterDetail.CandAdd = value; }
+        }
+
+        public System.String CandTo
+        {
+            get { return CallLetterDetail.CandTo; }
+            set { CallLetterDetail.CandTo = value; }
+        }
+
+        public System.String CompCode
+        {
+            get { return CallLetterDetail.CompCode; }
+            set { CallLetterDetail.CompCode = value; }
+        }
+
+        public System.String ContNo
+        {
+            get { return CallLetterDetail.ContNo; }
+            set { CallLetterDetail.ContNo = value; }
+        }
+
+        public System.String IntDate
+        {
+            get { return CallLetterDetail.IntDate; }
+            set { CallLetterDetail.IntDate = value; }
+        }
+
+        public System.String IntTime
+        {
+            get { return CallLetterDetail.IntTime; }
+            set { CallLetterDetail.IntTime = value; }
+        }
+
+        public System.String Pos
+        {
+            get { return CallLetterDetail.Pos; }
+            set { CallLetterDetail.Pos = value; }
+        }
+
+        public System.String Regards
+        {
+            get { return CallLetterDetail.Regards; }
+            set { CallLetterDetail.Regards = value; }
+        }
+
         public CallLetter CallLetterDetail
         {
             get { return BusinessObjectDetail as CallLetter; }

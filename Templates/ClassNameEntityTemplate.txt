@@ -33,7 +33,7 @@ namespace $ProjectNamespace$.Net.$ModuleName$.BusinessEntities
 
         #region Properties
 
-	$PropertiesDeclarationCode$
+	$PersistentPropertiesDeclarationCode$
 
         #endregion Properties
 	
